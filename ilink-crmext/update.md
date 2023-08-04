@@ -1,5 +1,5 @@
 # Software Update
-Im Windows Client
+Im Windows Client unter
 > Einstellungen > Extra > Download
 
 ist eine URL hinterlegt, wo der Windows Client regelmäßig nachschaut, ob eine neue Software vorhanden ist.
