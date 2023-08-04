@@ -1,5 +1,5 @@
 # Log files
-Im Windows Client
+Im Windows Client unter
 > Einstellungen > Trace > File
 
-Wenn Du „anzeigen“ clickst öffnet sich der Ordner mit den Logfiles.
+kann man die Logfiles öffnen, wenn man auf „anzeigen“ klickt. Dann öffnet sich der Ordner mit den Logfiles.
