@@ -25,6 +25,10 @@ Hier finden Sie weiterführende Links zu externen Kursen und Anleitungen für di
 - [YouTube: Domino Server Administration](https://www.youtube.com/results?search_query=domino+server+administration)
 - [HCL Webinars](https://www.hcltechsw.com/wps/portal/products/domino/webinars)
 
+## Kurse
+- [HCL Domino Systemadministration 1](https://www.madicon-elearning.de/courses/hcl-domino-systemadministration-1)
+- [HCL Domino Systemadministration 2](https://www.madicon-elearning.de/courses/hcl-domino-systemadministration-2)
+
 ## Support und Tickets
 - [HCL Support Portal](https://support.hcltechsw.com/)
 - [HCL Domino Support](https://support.hcltechsw.com/csm?id=kb_article_view&sysparm_article=KB0047274)
