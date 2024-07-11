@@ -1,3 +1,8 @@
+---
+layout: default
+title: Meine Seite
+---
+
 # HCL Verse Useful Links
 
 Hier finden Sie nützliche Links für Benutzer von HCL Verse.
