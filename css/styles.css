@@ -4,6 +4,14 @@ body {
   padding: 0;
 }
 
+.banner {
+  background-color: #0047ab;
+  /* HCL Blau */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
