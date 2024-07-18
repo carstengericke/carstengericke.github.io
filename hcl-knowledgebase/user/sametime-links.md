@@ -3,7 +3,7 @@
 Hier finden Sie nützliche Links für Benutzer von HCL Sametime.
 
 ## Offizielle Dokumentation
-- [HCL Sametime Documentation](https://help.hcltechsw.com/sametime/)
+- [HCL Sametime Documentation 12.0.2](https://opensource.hcltechsw.com/sametime-doc/v1202/)
 
 ## Tutorials und Anleitungen
 - [HCL Sametime Getting Started](https://www.hcltechsw.com/sametime/getting-started)
