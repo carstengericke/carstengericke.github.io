@@ -10,7 +10,11 @@ Hier finden Sie nützliche Links für Benutzer von HCL Sametime.
 - [YouTube: HCL Sametime Tutorials](https://www.youtube.com/results?search_query=HCL+Sametime+tutorials)
 
 ## Community und Foren
-- [HCL Community Forum](https://community.hcltechsw.com/)
+- [HCL Community Forum - Sametime](https://support.hcltechsw.com/community?id=community_forum&sys_id=e3c946d01b80841077761fc58d4bcb04)
+- [HCL Community Forum](https://support.hcltechsw.com/community)
 
 ## Support
-- [HCL Sametime Support](https://support.hcltechsw.com/csm?id=kb_article_view&sysparm_article=KB0047277)
+- [HCL Sametime Support - Ticket erstellen](https://support.hcltechsw.com/csm)
+- [HCL Sametime Support - Wissenssuche](https://support.hcltechsw.com/csm?id=kb_search)
+
+
