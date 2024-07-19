@@ -149,7 +149,7 @@ java -jar ilinkCRMExtCLI.jar -c push -f dest.yaml
 5. **Aktionen:**
    - Klicke auf "Neu...".
    - Aktion: "Programm starten".
-   - Programm/Skript: Gib den Pfad zu deiner `run.bat` Datei an, z.B. `C:\ilink\ilinkCRMExtCLI\run.bat`.
+   - Programm/Skript: Gib den Pfad zu deiner `run.bat` Datei an, z.B. `C:\ilink\kis\run.bat`.
 
 6. **Bedingungen:**
    - Deaktiviere alle Kontrollkästchen, außer das für "Aufgabe nur starten, wenn der Computer im Leerlauf ist".
@@ -157,22 +157,3 @@ java -jar ilinkCRMExtCLI.jar -c push -f dest.yaml
 7. **Einstellungen:**
    - Aktiviere "Erneut starten, falls der Vorgang fehlschlägt".
    - Stelle die Wiederholungsversuche auf "3".
-
-#### **Zusammenfassung der Schritte**
-
-1. **Exportieren der Kontaktdaten aus DATEV:**
-   ```
-   java -jar ilinkCRMExtCLI.jar -c pull -f src.yaml
-   ```
-
-2. **Umformatieren der Daten:**
-   ```
-   java -jar ilinkCRMExtCLI.jar -c convert -f convert.yaml
-   ```
-
-3. **Importieren der Daten in die innovaphone Telefonanlage:**
-   ```
-   java -jar ilinkCRMExtCLI.jar -c push -f dest.yaml
-   ```
-
-Mit diesen Schritten kannst du sicherstellen, dass die Kontaktdaten korrekt von DATEV exportiert, umformatiert und in die innovaphone Telefonanlage importiert werden, und dies alles automatisch einmal pro Nacht ausgeführt wird.
