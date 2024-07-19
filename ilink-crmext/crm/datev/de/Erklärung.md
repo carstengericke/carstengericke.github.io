@@ -68,10 +68,10 @@ Dieses Kommando verwendet die `dest.yaml`-Datei, um die konvertierten Daten in d
 
 ```
 type: "innovaphone"
-serverUrl: "http://innoapp.ilink.de"
+serverUrl: "https://innoapp.ilink.de"
 domain: "Applikationen.com"
 username: "contacts"
-password: "ilink"
+password: "secret"
 # file to upload into the innovaphone
 filepath: "contacts-datev.utf8"
 ```
