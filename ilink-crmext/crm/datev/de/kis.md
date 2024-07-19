@@ -5,7 +5,7 @@
 
 **Kommando:**
 
-```sh
+```
 java -jar ilinkCRMExtCLI.jar -c pull -f src.yaml
 ```
 
@@ -15,7 +15,7 @@ Dieses Kommando verwendet die `src.yaml`-Datei, um Kontaktdaten aus der DATEV-An
 
 **`src.yaml`-Datei:**
 
-```yaml
+```
 type: "datev"
 ```
 
@@ -27,7 +27,7 @@ type: "datev"
 
 **Kommando:**
 
-```sh
+```
 java -jar ilinkCRMExtCLI.jar -c convert -f convert.yaml
 ```
 
@@ -37,7 +37,7 @@ Dieses Kommando verwendet die `convert.yaml`-Datei, um die exportierten Daten in
 
 **`convert.yaml`-Datei:**
 
-```yaml
+```
 type: "datev"
 # output file name
 filepath: "contacts-datev.utf8"
@@ -56,7 +56,7 @@ separateRecords: true
 
 **Kommando:**
 
-```sh
+```
 java -jar ilinkCRMExtCLI.jar -c push -f dest.yaml
 ```
 
@@ -66,7 +66,7 @@ Dieses Kommando verwendet die `dest.yaml`-Datei, um die konvertierten Daten in d
 
 **`dest.yaml`-Datei:**
 
-```yaml
+```
 type: "innovaphone"
 serverUrl: "http://innoapp.ilink.de"
 domain: "Applikationen.com"
@@ -88,17 +88,17 @@ filepath: "contacts-datev.utf8"
 ### Zusammenfassung der Schritte
 
 1. **Exportieren der Kontaktdaten:**
-   ```sh
+   ```
    java -jar ilinkCRMExtCLI.jar -c pull -f src.yaml
    ```
 
 2. **Umformatieren der Daten:**
-   ```sh
+   ```
    java -jar ilinkCRMExtCLI.jar -c convert -f convert.yaml
    ```
 
 3. **Importieren der Daten:**
-   ```sh
+   ```
    java -jar ilinkCRMExtCLI.jar -c push -f dest.yaml
    ```
 
