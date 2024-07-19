@@ -17,4 +17,13 @@ Hier finden Sie nützliche Links für Benutzer von HCL Sametime.
 - [HCL Sametime Support - Ticket erstellen](https://support.hcltechsw.com/csm)
 - [HCL Sametime Support - Wissenssuche](https://support.hcltechsw.com/csm?id=kb_search)
 
+## Ideen
+- [Eine Idee zu Sametime? Hier hin:](https://domino-ideas.hcltechsw.com/?project=STC)
+
+## IdP
+- [Keycloak](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0077740)
+- [authentik](https://goauthentik.io/)
+
+## Mongo
+- [Percona & Backup](https://www.percona.com/mongodb)
 
