@@ -85,25 +85,6 @@ filepath: "contacts-datev.utf8"
 - **password:** Das Passwort für den Zugang zur innovaphone Telefonanlage.
 - **filepath:** Der Pfad zur Datei, die hochgeladen werden soll.
 
-### Zusammenfassung der Schritte
-
-1. **Exportieren der Kontaktdaten:**
-   ```
-   java -jar ilinkCRMExtCLI.jar -c pull -f src.yaml
-   ```
-
-2. **Umformatieren der Daten:**
-   ```
-   java -jar ilinkCRMExtCLI.jar -c convert -f convert.yaml
-   ```
-
-3. **Importieren der Daten:**
-   ```
-   java -jar ilinkCRMExtCLI.jar -c push -f dest.yaml
-   ```
-
-Diese Anleitung und die Konfigurationsdateien stellen sicher, dass die Kontaktdaten aus der DATEV-Anwendung korrekt exportiert, umformatiert und in die innovaphone Telefonanlage importiert werden. Achten Sie darauf, den `separateRecords`-Parameter in `convert.yaml` gemäß Ihrer Anforderungen zu setzen, um das gewünschte Verhalten bezüglich der Telefonnummern zu erzielen.
-
 ### Automatisierung des Datenexports, der Umformatierung und des Imports
 
 Diese Anleitung beschreibt, wie du die drei Kommandos zur Verarbeitung der Kontaktdaten in ein Batch-Skript (`run.bat`) einfügen und dieses Skript dann mithilfe des Windows Aufgabenplaners automatisiert ausführen kannst.
