@@ -36,7 +36,7 @@ Diese Anleitung beschreibt, wie du die drei Kommandos zur Verarbeitung der Konta
 Erstelle eine Batch-Datei namens `run.bat` und füge den folgenden Inhalt ein:
 
 ```
-cd C:\ilink\ilinkCRMExtCLI
+cd C:\ilink\kis
 mkdir log
 java -jar ilinkCRMExtCLI.jar -c pull -f src.yaml
 java -jar ilinkCRMExtCLI.jar -c convert -f convert.yaml
