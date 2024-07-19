@@ -1,5 +1,5 @@
 
-### Anleitung zum Import der Datev Kontakt-Daten in die Contacts App der innovaphone
+### Anleitung zum Import der DATEV Kontakt-Daten in die Contacts App der innovaphone
 
 #### **Schritt 1: Exportieren der Kontaktdaten aus DATEV**
 
