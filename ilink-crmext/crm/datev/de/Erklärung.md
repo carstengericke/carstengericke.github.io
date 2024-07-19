@@ -79,7 +79,7 @@ filepath: "contacts-datev.utf8"
 **Erklärung:**
 
 - **type:** Gibt den Typ der Zielanwendung an, hier "innovaphone".
-- **serverUrl:** Die URL des app Servers, zu dem die Daten hochgeladen werden sollen.
+- **serverUrl:** Die URL des innovaphone myApps Servers, zu dem die Daten hochgeladen werden sollen.
 - **domain:** Die Domäne, die für die Anmeldung verwendet wird.
 - **username:** Der Benutzername für den Zugang zur innovaphone Telefonanlage.
 - **password:** Das Passwort für den Zugang zur innovaphone Telefonanlage.
