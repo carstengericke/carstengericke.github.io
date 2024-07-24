@@ -1,3 +1,8 @@
+---
+layout: default
+title: Meine Seite
+---
+
 # HCL Verse Useful Links
 
 Hier finden Sie nützliche Links für Benutzer von HCL Verse.
@@ -13,4 +18,6 @@ Hier finden Sie nützliche Links für Benutzer von HCL Verse.
 - [HCL Community Forum](https://community.hcltechsw.com/)
 
 ## Support
-- [HCL Verse Support](https://support.hcltechsw.com/csm?id=kb_article_view&sysparm_article=KB0047275)
+- [HCL Verse Support](https://support.hcltechsw.com/csm?id=kb_search&spa=1&query=Verse)## Support
+
+- [HCL Jil Support](https://carstengericke.github.io/hcl-knowledgebase/resources/Jil)
