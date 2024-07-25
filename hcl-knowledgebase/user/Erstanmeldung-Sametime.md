@@ -32,7 +32,7 @@ und sicheres Passwort als neues Passwort ein.
 Hier ist ein zentriertes Bild mit angepasster Größe:
 
 <p align="center">
-  <img src="/resources/image-3.png" alt="Alt-Text" width="500" height="300">
+  <img src="/hcl-knowledgebase/resources/image-3.png" alt="Alt-Text" width="500" height="300">
 </p>
 
 
