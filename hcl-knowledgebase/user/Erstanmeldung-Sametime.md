@@ -8,7 +8,7 @@ title: Meine Seite
 ## Ersteinstieg
 - [Rufen Sie im Internet unsere Homepage](https://sametime.inlakech.de/login) auf
 - Benutzername: Vor- und Nachname Initiales Passwort: inlakech
-- ![Alternativtext](resources/screenshot ST erstanmeldung.png)
+- ![Alternativtext](resources/Image-erstanmeldung-ST.png)
 
 
 
