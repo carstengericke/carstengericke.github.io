@@ -19,7 +19,7 @@ Eine positive Chat-Kultur ist essenziell, um produktive, respektvolle und angene
 
 8. **Privatsphäre und Vertraulichkeit**: Respektiere die Privatsphäre der anderen Teilnehmer. Teile keine persönlichen oder vertraulichen Informationen ohne Zustimmung.
 
-9. **Technische Etikette**: Verwende die Funktionen der Chat-Plattform angemessen. Dazu gehört das Nutzen von Thread-Antworten, wenn vorhanden, und das Vermeiden von übermäßigen Benachrichtigungen oder unnötigen Nachrichten.
+9. **Technische Etikette**: Verwende die Funktionen der Chat-Plattform angemessen. Dazu gehört das Nutzen von Thread-Antworten, wenn vorhanden, und das Vermeiden von übermäßigen Benachrichtigungen oder unnötigen Nachrichten. Man kann auch Chats Stumm schalten und Chat Gruppen anlegen.
 
 10. **Positives Umfeld schaffen**: Trage aktiv zu einer positiven und unterstützenden Atmosphäre bei. Anerkenne gute Beiträge und ermutige zur Teilnahme.
 
