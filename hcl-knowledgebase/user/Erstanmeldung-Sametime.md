@@ -3,12 +3,12 @@ layout: default
 title: Meine Seite
 ---
 
-# HCL Verse Useful Links
+# Anleitung zur Erstanmeldung in Sametime und App Installierung  
 
-Hier finden Sie nützliche Links für Benutzer von HCL Verse.
+## Ersteinstieg
+- [Rufen Sie im Internet unsere Homepage](https://sametime.inlakech.de/login)[auf]
+- [Benutzername: Vor- und Nachname Initiales Passwort: inlakech]
 
-## Offizielle Dokumentation
-- [HCL Verse Documentation](https://help.hcltechsw.com/verse/)
 
 ## Tutorials und Anleitungen
 - [HCL Verse Getting Started](https://www.hcltechsw.com/verse/getting-started)
@@ -18,6 +18,6 @@ Hier finden Sie nützliche Links für Benutzer von HCL Verse.
 - [HCL Community Forum](https://community.hcltechsw.com/)
 
 ## Support
-- [HCL Verse Support](https://support.hcltechsw.com/csm?id=kb_search&spa=1&query=Verse)## Support
+- [HCL Verse Support](https://support.hcltechsw.com/csm?id=kb_search&spa=1&query=Verse)
 
 - [HCL Jil Support](https://carstengericke.github.io/hcl-knowledgebase/resources/Jil)
