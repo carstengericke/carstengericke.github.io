@@ -19,8 +19,10 @@ Eine positive Chat-Kultur ist essenziell, um produktive, respektvolle und angene
 
 8. **Privatsphäre und Vertraulichkeit**: Respektiere die Privatsphäre der anderen Teilnehmer. Teile keine persönlichen oder vertraulichen Informationen ohne Zustimmung.
 
-9. **Positives Umfeld schaffen**: Trage aktiv zu einer positiven und unterstützenden Atmosphäre bei. Anerkenne gute Beiträge und ermutige zur Teilnahme.
+9. **Technische Etikette**: Verwende die Funktionen der Chat-Plattform angemessen. Dazu gehört das Nutzen von Thread-Antworten, wenn vorhanden, und das Vermeiden von übermäßigen Benachrichtigungen oder unnötigen Nachrichten.
 
-10. **Verantwortungsvolles Handeln**: Sei dir der Auswirkungen deiner Worte bewusst. Überlege, wie deine Nachrichten von anderen wahrgenommen werden könnten, und handle verantwortungsvoll.
+10. **Positives Umfeld schaffen**: Trage aktiv zu einer positiven und unterstützenden Atmosphäre bei. Anerkenne gute Beiträge und ermutige zur Teilnahme.
+
+11. **Verantwortungsvolles Handeln**: Sei dir der Auswirkungen deiner Worte bewusst. Überlege, wie deine Nachrichten von anderen wahrgenommen werden könnten, und handle verantwortungsvoll.
 
 Eine gute Chat-Kultur trägt dazu bei, dass die Kommunikation effizienter, angenehmer und produktiver wird. Indem jeder Teilnehmer diese Grundsätze beachtet, können Missverständnisse minimiert und eine harmonische Online-Umgebung geschaffen werden.
