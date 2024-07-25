@@ -27,7 +27,14 @@ Als altes Internetkennwort nutzt du: inlakech
 Bitte gebe nun dein persönliches 
 und sicheres Passwort als neues Passwort ein.
 
-![hcl-knowledgebase/resources/image-3.png](../resources/image-3.png)
+![Alt-Text](../resources/image-3.png)
+
+Hier ist ein zentriertes Bild mit angepasster Größe:
+
+<p align="center">
+  <img src="/resources/image-3.png" alt="Alt-Text" width="500" height="300">
+</p>
+
 
 ## Sametime Chat
 Um auf den Sametime Chat zu gelangen, änder die Webadresse und ersetzte „Meeting“ durch „Chat“
