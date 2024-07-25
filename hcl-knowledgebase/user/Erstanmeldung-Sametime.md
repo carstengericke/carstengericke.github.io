@@ -32,9 +32,8 @@ und sicheres Passwort als neues Passwort ein.
 Hier ist ein zentriertes Bild mit angepasster Größe:
 
 <p align="center">
-  <img src="/hcl-knowledgebase/resources/image-3.png" alt="Alt-Text" width="500" height="300">
+  <img src="/hcl-knowledgebase/resources/image-3.png" alt="Alt-Text"  style="width: 50%;">
 </p>
-
 
 ## Sametime Chat
 Um auf den Sametime Chat zu gelangen, änder die Webadresse und ersetzte „Meeting“ durch „Chat“
