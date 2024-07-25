@@ -8,7 +8,9 @@ title: Meine Seite
 ## Ersteinstieg
 - [Rufen Sie im Internet unsere Homepage](https://sametime.inlakech.de/login) auf
 - Benutzername: Vor- und Nachname Initiales Passwort: inlakech
-- ![alt text](../resources/image-1.png)style="width: 50%;">
+- ![alt text](../resources/image-1.png)
+<p align="center">
+  <img src="/hcl-knowledgebase/resources/image-1.png" alt="Alt-Text"  style="width: 50%;">
 </p>
 
 
