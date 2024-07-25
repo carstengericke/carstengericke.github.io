@@ -8,12 +8,16 @@ title: Meine Seite
 ## Ersteinstieg
 - [Rufen Sie im Internet unsere Homepage](https://sametime.inlakech.de/login) auf
 - Benutzername: Vor- und Nachname Initiales Passwort: inlakech
-- ![Anmeldemaske](resources/Image-erstanmeldung-ST.png)
+- ![alt text](image.png)
 
 
 
-## Tutorials und Anleitungen
-- [HCL Verse Getting Started](https://www.hcltechsw.com/verse/getting-started)
+## Passwort ändern
+- Nach der Erstanmeldung muss das Passwort in den Einstellungen geändert werden.
+![alt text](../resources/image.png)
+
+Hierfür öffne das Dropdown Feld unter deinem Benutzernamen und Klicke auf „Kennwort ändern“
+
 - [YouTube: HCL Verse Tutorials](https://www.youtube.com/results?search_query=HCL+Verse+tutorials)
 
 ## Community und Foren
