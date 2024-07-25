@@ -6,8 +6,8 @@ title: Meine Seite
 # Anleitung zur Erstanmeldung in Sametime und App Installierung  
 
 ## Ersteinstieg
-- [Rufen Sie im Internet unsere Homepage](https://sametime.inlakech.de/login)[auf]
-- [Benutzername: Vor- und Nachname Initiales Passwort: inlakech]
+- [Rufen Sie im Internet unsere Homepage](https://sametime.inlakech.de/login) auf
+- Benutzername: Vor- und Nachname Initiales Passwort: inlakech
 
 
 ## Tutorials und Anleitungen
