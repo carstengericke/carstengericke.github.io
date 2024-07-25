@@ -8,12 +8,14 @@ title: Meine Seite
 ## Ersteinstieg
 - [Rufen Sie im Internet unsere Homepage](https://sametime.inlakech.de/login) auf
 - Benutzername: Vor- und Nachname Initiales Passwort: inlakech
-- ![alt text](image.png)
+- ![alt text]hcl-knowledgebase/resources/Image-erstanmeldung-ST.png
 
 
 
 ## Passwort ändern
+
 - Nach der Erstanmeldung muss das Passwort in den Einstellungen geändert werden.
+
 ![alt text](../resources/image.png)
 
 Hierfür öffne das Dropdown Feld unter deinem Benutzernamen und Klicke auf „Kennwort ändern“
