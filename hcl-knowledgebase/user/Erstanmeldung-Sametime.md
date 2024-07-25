@@ -19,12 +19,26 @@ title: Meine Seite
 
 Hierfür öffne das Dropdown Feld unter deinem Benutzernamen und Klicke auf „Kennwort ändern“
 
-- [YouTube: HCL Verse Tutorials](https://www.youtube.com/results?search_query=HCL+Verse+tutorials)
+Unter dem Punkt Sicherheit findest du Internet-Kennwort ändern. 
+Klicke auf „Ändern“
 
-## Community und Foren
-- [HCL Community Forum](https://community.hcltechsw.com/)
+Als altes Internetkennwort nutzt du: inlakech
 
-## Support
-- [HCL Verse Support](https://support.hcltechsw.com/csm?id=kb_search&spa=1&query=Verse)
+Bitte gebe nun dein persönliches 
+und sicheres Passwort als neues Passwort ein.
 
-- [HCL Jil Support](https://carstengericke.github.io/hcl-knowledgebase/resources/Jil)
+![hcl-knowledgebase/resources/image-3.png](../resources/image-3.png)
+
+## Sametime Chat
+Um auf den Sametime Chat zu gelangen, änder die Webadresse und ersetzte „Meeting“ durch „Chat“
+![alt text](../resources/image-4.png)
+
+
+## Sametime App installieren
+Auf der Website befindet sich rechts neben der Webadresse folgendes Feld
+![alt text](../resources/image-7.png)
+
+Bestätige die Installation mit „Installieren“ 
+![alt text](../resources/image-5.png)
+
+Fertig!
