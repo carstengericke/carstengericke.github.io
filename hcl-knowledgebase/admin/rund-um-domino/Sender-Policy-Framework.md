@@ -17,5 +17,5 @@ Die Konfiguration umfasst in der Regel folgende Schritte:
 2. **Konfiguration der SPF-Prüfung**: Dabei legst Du fest, wie der Server auf SPF-Fehler reagieren soll (z.B. Ablehnung der E-Mail, Markierung als Spam usw.).
 3. **Updates und Patches**: Stelle sicher, dass Dein Domino-Server auf dem neuesten Stand ist, da ältere Versionen möglicherweise nicht die neuesten Sicherheitsfunktionen und -konfigurationen unterstützen.
 
-# Detaillierte Anweisungen zur Konfiguration der SPF-Unterstützung auf einem HCL Domino-Server
+### Detaillierte Anweisungen zur Konfiguration der SPF-Unterstützung auf einem HCL Domino-Server
 TODO
