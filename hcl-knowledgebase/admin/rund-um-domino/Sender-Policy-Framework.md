@@ -6,6 +6,7 @@ Die grundlegenden Schritte, um SPF zu konfigurieren, sind:
 1. Erstellen eines SPF-Eintrags für die DNS-Zone Ihrer Domäne.
 2. Veröffentlichung des SPF-Eintrags als TXT-Eintrag im DNS.
 
+
 ### Unterstützung durch HCL Domino
 
 HCL Domino unterstützt das Sender Policy Framework (SPF). HCL Domino kann so konfiguriert werden, dass es SPF-Prüfungen für eingehende E-Mails durchführt. Dazu müssen Sie sicherstellen, dass der Domino-Server richtig konfiguriert ist, um SPF-Prüfungen durchzuführen und die Ergebnisse dieser Prüfungen zu berücksichtigen.
