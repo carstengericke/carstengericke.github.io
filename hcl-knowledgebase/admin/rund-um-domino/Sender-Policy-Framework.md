@@ -1,3 +1,5 @@
+### Sender Policy Framework (SPF)
+
 Sender Policy Framework (SPF) ist ein Authentifizierungsprotokoll, das dazu dient, E-Mail-Spoofing zu verhindern. Es ermöglicht E-Mail-Domänenbesitzern, anzugeben, welche IP-Adressen berechtigt sind, E-Mails im Namen ihrer Domäne zu senden. Dies geschieht durch die Veröffentlichung eines speziellen DNS-Eintrags (TXT-Eintrag) für die Domäne, der die autorisierten IP-Adressen enthält.
 
 Wenn ein E-Mail-Server eine eingehende E-Mail empfängt, überprüft er den SPF-Eintrag der Absenderdomäne, um festzustellen, ob die E-Mail von einer autorisierten IP-Adresse stammt. Wenn die IP-Adresse nicht im SPF-Eintrag enthalten ist, kann der E-Mail-Server die E-Mail ablehnen oder als Spam markieren.
@@ -5,7 +7,6 @@ Wenn ein E-Mail-Server eine eingehende E-Mail empfängt, überprüft er den SPF-
 Die grundlegenden Schritte, um SPF zu konfigurieren, sind:
 1. Erstellen eines SPF-Eintrags für die DNS-Zone Ihrer Domäne.
 2. Veröffentlichung des SPF-Eintrags als TXT-Eintrag im DNS.
-
 
 ### Unterstützung durch HCL Domino
 
