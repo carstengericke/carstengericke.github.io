@@ -25,7 +25,7 @@ Dieses Arbeitspaket umfasst die Durchführung grundlegender Penetrationstests zu
 
 **Teilaufgaben:**
 
-2.1 **Tests durchführen:** Durchführung der im Testplan beschriebenen Penetrationstests mit geeigneten Tools (z.B. OWASP ZAP, Burp Suite).
+2.1 **Tests durchführen:** Durchführung der im Testplan beschriebenen Penetrationstests mit geeigneten Tools (z.B. OWASP ZAP).
 
 2.2 **Ergebnisse sammeln:** Sammlung und Dokumentation der Testergebnisse.
 
