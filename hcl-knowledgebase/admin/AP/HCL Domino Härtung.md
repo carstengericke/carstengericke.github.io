@@ -14,8 +14,11 @@ Dieses Arbeitspaket umfasst die Sicherheitsüberprüfung und -härtung der HCL D
 #### Aufgabe 1: Sicherheitsanalyse und Planung
 
 **Teilaufgaben:**
+
 1.1 **Sicherheitsbewertung:** Durchführen einer Sicherheitsbewertung der bestehenden HCL Domino-Installation, um Schwachstellen und Verbesserungspotenziale zu identifizieren.
+
 1.2 **Sicherheitsanforderungen festlegen:** Festlegen der Sicherheitsanforderungen basierend auf Best Practices und organisatorischen Richtlinien.
+
 1.3 **Härtungsplan erstellen:** Entwicklung eines detaillierten Härtungsplans, der die erforderlichen Sicherheitsmaßnahmen und -konfigurationen beschreibt.
 
 **Liefergegenstände:**
@@ -26,10 +29,15 @@ Dieses Arbeitspaket umfasst die Sicherheitsüberprüfung und -härtung der HCL D
 #### Aufgabe 2: Implementierung von Sicherheitsmaßnahmen
 
 **Teilaufgaben:**
+
 2.1 **Netzwerksicherheit:** Implementierung von Network Policies in Kubernetes zur Begrenzung des Datenverkehrs zwischen Pods. 
+
 2.2 **Zugriffskontrolle:** Konfiguration von Role-Based Access Control (RBAC) und Kubernetes-Secrets für sichere Anmeldeinformationen und Konfigurationen.
+
 2.3 **Datenverschlüsselung:** Sicherstellen, dass alle Daten im Ruhezustand und während der Übertragung verschlüsselt sind. Implementierung von TLS/SSL für die Kommunikation.
+
 2.4 **Sicherheitsupdates:** Sicherstellen, dass alle verwendeten Images regelmäßig auf Sicherheitsupdates überprüft und aktualisiert werden.
+
 2.5 **Sicherheitsüberwachung:** Implementierung von Sicherheitsüberwachungs- und Protokollierungsmechanismen zur Erkennung und Reaktion auf sicherheitsrelevante Ereignisse.
 
 **Liefergegenstände:**
@@ -42,8 +50,11 @@ Dieses Arbeitspaket umfasst die Sicherheitsüberprüfung und -härtung der HCL D
 #### Aufgabe 3: Erstellung und Implementierung der Sicherheits-Checkliste
 
 **Teilaufgaben:**
+
 3.1 **Checkliste erstellen:** Erstellung einer detaillierten Checkliste für die Sicherheitsüberprüfung der HCL Domino-Installation, die alle relevanten Sicherheitsmaßnahmen umfasst.
+
 3.2 **Automatisierung (falls zutreffend):** Implementierung von automatisierten Tests oder Skripten zur regelmäßigen Überprüfung der Sicherheitsmaßnahmen.
+
 3.3 **Manuelle Überprüfung:** Durchführung einer manuellen Überprüfung und Validierung der Sicherheitsmaßnahmen anhand der Checkliste.
 
 **Liefergegenstände:**
@@ -54,7 +65,9 @@ Dieses Arbeitspaket umfasst die Sicherheitsüberprüfung und -härtung der HCL D
 #### Aufgabe 4: Dokumentation und Schulung
 
 **Teilaufgaben:**
+
 4.1 **Prozessdokumentation:** Dokumentation des gesamten Härtungsprozesses, einschließlich der durchgeführten Sicherheitsmaßnahmen und Konfigurationen.
+
 4.2 **Schulung:** Durchführung einer Schulung für das IT-Personal zur Sensibilisierung für Sicherheitspraktiken und zur Nutzung der implementierten Sicherheitsmaßnahmen.
 
 **Liefergegenstände:**
