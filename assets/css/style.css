@@ -1,16 +1,16 @@
-header {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #0047ab;
-    color: white;
-    padding: 10px;
+body {
+    font-family: Arial, sans-serif;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+header {
+    background: #0047ab;
+    color: white;
+    padding: 1em;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -21,4 +21,18 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #f1f1f1;
 }
