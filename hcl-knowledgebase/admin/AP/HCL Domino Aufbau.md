@@ -120,3 +120,5 @@ Dieses Arbeitspaket umfasst die vollständige Einrichtung und Bereitstellung von
 2. **Docker-Entwickler:** Erstellt und verwaltet Docker-Images für HCL Domino.
 3. **Sicherheitsingenieur:** Implementiert Sicherheitsmaßnahmen und Backup-Strategien.
 4. **Technischer Redakteur:** Dokumentiert den gesamten Prozess, die Verifikationsmethoden und die Ergebnisse.
+
+[Zurück zur Übersicht](index.md)
