@@ -1,4 +1,4 @@
-### Aufbau und Bereitstellung einer Web Application Firewall (WAF) in Kubernetes
+### Arbeitspaket: Aufbau und Bereitstellung einer Web Application Firewall (WAF) in Kubernetes
 
 #### Übersicht
 Dieses Arbeitspaket umfasst den vollständigen Prozess des Aufbaus, der Bereitstellung und der Automatisierung einer Web Application Firewall (WAF) in einer Kubernetes-Umgebung. Zusätzlich beinhaltet es die umfassende Dokumentation des gesamten Prozesses, einschließlich der Ziele, Ergebnisse und Einschränkungen, sowie die Erstellung eines Testplans und die Dokumentation der Testergebnisse.
