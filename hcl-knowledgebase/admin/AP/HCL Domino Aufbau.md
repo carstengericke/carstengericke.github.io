@@ -14,8 +14,11 @@ Dieses Arbeitspaket umfasst die vollständige Einrichtung und Bereitstellung von
 #### Aufgabe 1: Vorbereitung und Planung
 
 **Teilaufgaben:**
+
 1.1 **Anforderungen ermitteln:** Ermittlung der Systemanforderungen und Ressourcen für HCL Domino.
+
 1.2 **Architektur planen:** Entwurf der Architektur für die HCL Domino-Installation in Kubernetes, einschließlich der Auswahl der notwendigen Kubernetes-Ressourcen (Deployments, Services, ConfigMaps, Secrets).
+
 1.3 **Kubernetes-Cluster vorbereiten:** Sicherstellen, dass ein Kubernetes-Cluster bereitsteht und für die Installation vorbereitet ist (lokal mit Minikube oder cloudbasiert wie GKE, EKS oder AKS).
 
 **Liefergegenstände:**
@@ -26,8 +29,11 @@ Dieses Arbeitspaket umfasst die vollständige Einrichtung und Bereitstellung von
 #### Aufgabe 2: Docker-Images für HCL Domino erstellen
 
 **Teilaufgaben:**
+
 2.1 **Dockerfile erstellen:** Erstellung eines Dockerfiles für die HCL Domino-Komponenten (Mail, LDAP, Verse).
+
 2.2 **Docker-Image erstellen:** Builden der Docker-Images basierend auf dem Dockerfile.
+
 2.3 **Container-Registry:** Pushen der Docker-Images in eine Container-Registry (z.B. Docker Hub, Google Container Registry).
 
 **Liefergegenstände:**
@@ -37,9 +43,13 @@ Dieses Arbeitspaket umfasst die vollständige Einrichtung und Bereitstellung von
 #### Aufgabe 3: Kubernetes-Bereitstellung
 
 **Teilaufgaben:**
+
 3.1 **Deployment-Konfiguration:** Erstellen der Kubernetes-Deployment-YAML-Dateien für die HCL Domino-Komponenten (Mail, LDAP, Verse).
+
 3.2 **Service-Konfiguration:** Erstellen der Kubernetes-Service-YAML-Dateien zur Bereitstellung des Zugriffs auf HCL Domino-Dienste.
+
 3.3 **ConfigMaps und Secrets:** Erstellung der notwendigen ConfigMaps und Secrets für die Konfiguration von HCL Domino.
+
 3.4 **Deployment:** Bereitstellung der HCL Domino-Komponenten in Kubernetes.
 
 **Liefergegenstände:**
@@ -51,7 +61,9 @@ Dieses Arbeitspaket umfasst die vollständige Einrichtung und Bereitstellung von
 #### Aufgabe 4: Sicherheits- und Backup-Strategien implementieren
 
 **Teilaufgaben:**
+
 4.1 **Sicherheitskonfiguration:** Implementierung von Sicherheitsmaßnahmen für die HCL Domino-Installation (z.B. Network Policies, RBAC).
+
 4.2 **Backup-Strategien:** Implementierung von Backup- und Wiederherstellungsstrategien für die HCL Domino-Daten.
 
 **Liefergegenstände:**
@@ -61,8 +73,11 @@ Dieses Arbeitspaket umfasst die vollständige Einrichtung und Bereitstellung von
 #### Aufgabe 5: Dokumentation und Verifikation
 
 **Teilaufgaben:**
+
 5.1 **Prozessdokumentation:** Dokumentation des gesamten Installations- und Bereitstellungsprozesses für HCL Domino in Kubernetes.
+
 5.2 **Verifikationsdokumentation:** Bereitstellung von Anweisungen zur Überprüfung der Funktionsfähigkeit der HCL Domino-Installation.
+
 5.3 **Abschlussdokumentation:** Dokumentation der Ziele, des erreichten Zustands, der Verifikationsmethoden und der Einschränkungen.
 
 **Liefergegenstände:**
