@@ -1,4 +1,4 @@
-### Arbeitspaket: Härtung der HCL Domino-Installation in Kubernetes
+### Arbeitspaket: Härtung der HCL Domino-Installation (Mail, LDAP, Verse) in Kubernetes
 
 #### Übersicht
 Dieses Arbeitspaket umfasst die Sicherheitsüberprüfung und -härtung der HCL Domino-Installation, die im vorherigen Arbeitspaket bereitgestellt wurde. Ziel ist es, die HCL Domino-Umgebung sicher zu konfigurieren und zu betreiben, um Angriffe zu verhindern und die Vertraulichkeit, Integrität und Verfügbarkeit der Daten zu gewährleisten. Das Arbeitspaket endet mit einer umfassenden Checkliste, die die Sicherheit der Umgebung überprüft, entweder automatisch oder manuell.
