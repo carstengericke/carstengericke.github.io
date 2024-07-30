@@ -105,3 +105,5 @@ Dieses Arbeitspaket umfasst die Sicherheitsüberprüfung und -härtung der HCL D
 2. **Kubernetes-Administrator:** Konfiguriert Network Policies und RBAC, implementiert Sicherheitsupdates und -überwachung.
 3. **Technischer Redakteur:** Dokumentiert den Härtungsprozess und erstellt die Schulungsunterlagen.
 4. **Schulungsspezialist:** Führt die Schulung des IT-Personals durch.
+
+[Zurück zur Übersicht](index.md)
