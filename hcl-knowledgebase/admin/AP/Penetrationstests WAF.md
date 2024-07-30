@@ -12,7 +12,9 @@ Dieses Arbeitspaket umfasst die Durchführung grundlegender Penetrationstests zu
 #### Aufgabe 1: Planung und Vorbereitung der Penetrationstests
 
 **Teilaufgaben:**
+
 1.1 **Testplan erstellen:** Erstellung eines detaillierten Testplans, der die zu prüfenden Aspekte der WAF beschreibt.
+
 1.2 **Testumgebung einrichten:** Einrichtung einer Testumgebung, in der die Penetrationstests durchgeführt werden.
 
 **Liefergegenstände:**
@@ -22,7 +24,9 @@ Dieses Arbeitspaket umfasst die Durchführung grundlegender Penetrationstests zu
 #### Aufgabe 2: Durchführung der Penetrationstests
 
 **Teilaufgaben:**
+
 2.1 **Tests durchführen:** Durchführung der im Testplan beschriebenen Penetrationstests mit geeigneten Tools (z.B. OWASP ZAP, Burp Suite).
+
 2.2 **Ergebnisse sammeln:** Sammlung und Dokumentation der Testergebnisse.
 
 **Liefergegenstände:**
@@ -31,7 +35,9 @@ Dieses Arbeitspaket umfasst die Durchführung grundlegender Penetrationstests zu
 #### Aufgabe 3: Analyse und Berichterstellung
 
 **Teilaufgaben:**
+
 3.1 **Ergebnisse analysieren:** Analyse der Testergebnisse zur Bewertung der WAF-Funktionalität.
+
 3.2 **Bericht erstellen:** Erstellung eines detaillierten Berichts, der die Testergebnisse und die Analyse beschreibt.
 
 **Liefergegenstände:**
