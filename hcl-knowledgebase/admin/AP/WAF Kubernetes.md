@@ -17,7 +17,7 @@ Dieses Arbeitspaket umfasst den vollständigen Prozess des Aufbaus, der Bereitst
 
 1.1 **WAF-Lösung auswählen:** Auswahl einer geeigneten WAF-Lösung, z.B. ModSecurity mit Nginx.
 
-1.2 **Einrichtung des Kubernetes-Clusters:** Sicherstellen, dass ein Kubernetes-Cluster eingerichtet und betriebsbereit ist (lokal mit Minikube oder cloudbasiert wie GKE, EKS oder AKS).
+1.2 **Einrichtung des Kubernetes-Clusters:** Sicherstellen, dass ein Kubernetes-Cluster eingerichtet und betriebsbereit ist (lokal mit Minikube oder cloudbasiert wie Azure AKS, Google GKE, AWS EKS, IONOS oder Hetzner).
 
 1.3 **Docker-Image erstellen:** Entwicklung einer Dockerfile zum Aufbau eines Images mit der ausgewählten WAF-Lösung.
 
