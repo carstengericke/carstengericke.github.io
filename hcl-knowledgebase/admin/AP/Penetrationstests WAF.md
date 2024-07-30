@@ -1,4 +1,4 @@
-### Durchführung eines grundlegenden Penetrationstests zur Überprüfung der WAF
+### Arbeitspaket: Durchführung eines grundlegenden Penetrationstests zur Überprüfung der WAF
 
 #### Übersicht
 Dieses Arbeitspaket umfasst die Durchführung grundlegender Penetrationstests zur Überprüfung der Funktionalität der Web Application Firewall (WAF) in einer Kubernetes-Umgebung. Die Ergebnisse der Tests werden dokumentiert und analysiert.
