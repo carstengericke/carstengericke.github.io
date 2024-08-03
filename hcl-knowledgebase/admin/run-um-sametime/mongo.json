@@ -1,0 +1,10 @@
+  {
+    "user": "sametimeClusterAdmin",
+    "pwd": "sametime",
+    "roles": [
+      {
+        "role": "clusterAdmin",
+        "db": "admin"
+      }
+    ]
+  }
