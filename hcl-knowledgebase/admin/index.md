@@ -13,11 +13,11 @@ Einrichtung und Konfiguration von Domino-Servern.
 
 Ressourcen und Hilfsmittel zur Verwaltung von Domino-Servern.
 
-## [Sender-Policy-Framework](./Sender-Policy-Framework)
+## [Sender-Policy-Framework](./rund-um-domino/Sender-Policy-Framework)
 
 Informationen und Konfigurationsanweisungen für das Sender-Policy-Framework (SPF).
 
-## [Sicherung](./Sicherung/Sicherung)
+## [Sicherung](./rund-um-domino/Sicherung/Sicherung)
 
 Methoden und Best Practices für die Sicherung von Domino-Daten.
 
