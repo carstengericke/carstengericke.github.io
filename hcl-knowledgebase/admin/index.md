@@ -5,22 +5,22 @@ title: Admin Dokumentation
 
 # Admin Dokumentation
 
-## [Domino Setup](./domino_setup)
+## [Domino Setup](./domino-setup)
 
 Einrichtung und Konfiguration von Domino-Servern.
 
-## [Domino Administration Resources](./domino_admin_resources)
+## [Domino Administration Resources](./domino-resources)
 
 Ressourcen und Hilfsmittel zur Verwaltung von Domino-Servern.
 
-## [Sender-Policy-Framework](./sender_policy_framework)
+## [Sender-Policy-Framework](./Sender-Policy-Framework)
 
 Informationen und Konfigurationsanweisungen für das Sender-Policy-Framework (SPF).
 
-## [Sicherung](./sicherung)
+## [Sicherung](./Sicherung/Sicherung)
 
 Methoden und Best Practices für die Sicherung von Domino-Daten.
 
-## [Arbeitspakete](./arbeitspakete)
+## [Arbeitspakete](./AP)
 
 Übersicht und Management von Arbeitspaketen.
