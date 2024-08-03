@@ -1,3 +1,8 @@
+---
+layout: default
+title: Admin Dokumentation
+---
+
 # Admin Dokumentation
 
 ## [Domino Setup](./domino_setup)
