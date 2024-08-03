@@ -46,6 +46,6 @@ Definiere und richte Authentifizierungsmethoden für Webbenutzer ein, zum Beispi
 
 Ein Domino-Server kann eine Anmeldeinformationsspeicheranwendung als sicheres Artefakt-Repository verwenden. Beispiele für sichere Artefakte sind Authentifizierungsanmeldeinformationen und Sicherheitsschlüssel.
 
-## Verlauf der unterstützten Schlüssellängen in Notes und Domino
+## Unterstützten Schlüssellängen in Notes und Domino
 
 Verstehe die von Notes und Domino unterstützten RSA-Schlüssellängen von früheren Versionen bis zur aktuellen Version.
