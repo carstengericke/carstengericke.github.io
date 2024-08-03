@@ -64,7 +64,7 @@ Die Vorfallbehandlung umfasst:
 - Reaktionsverfahren für jeden Vorfalltyp
 - Vorfallreaktionstests
 
-Sobald du deine Pläne zur Vorfallbehandlung erstellt hast, kannst du besser deine Anforderungen an:
+Sobald du deine Pläne zur Vorfallbehandlung erstellt hast, kannst du deine Anforderungen für Folgendes besser bestimmen:
 
 - Domino-Protokollierung
 - Domino-HTTP-Protokollierung
