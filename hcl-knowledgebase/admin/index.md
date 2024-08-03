@@ -17,7 +17,7 @@ Ressourcen und Hilfsmittel zur Verwaltung von Domino-Servern.
 
 Informationen und Konfigurationsanweisungen für das Sender-Policy-Framework (SPF).
 
-## [Sicherung](./rund-um-domino/Sicherung/Sicherung)
+## [Sicherung](./rund-um-domino/Sicherung)
 
 Methoden und Best Practices für die Sicherung von Domino-Daten.
 
