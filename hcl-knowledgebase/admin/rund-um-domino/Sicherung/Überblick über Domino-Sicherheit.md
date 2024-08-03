@@ -89,9 +89,9 @@ Dieser Schritt ist normalerweise der schwierigste, aber genauso wichtig wie alle
 
 ## Verwandte Informationen
 
-- [Das Domino-Sicherheitsmodell](https://help.hcl-software.com/domino/14.0.0/admin/othr_domino_security_model_c.html)
-- [Die Domino-Server-Protokolldatei (LOG.NSF)](https://help.hcl-software.com/domino/14.0.0/admin/othr_domino_logfile_c.html)
-- [Das Domino-Webserver-Protokoll (DOMLOG.NSF)](https://help.hcl-software.com/domino/14.0.0/admin/othr_domino_web_logfile_c.html)
-- [Backup des Domino-Servers](https://help.hcl-software.com/domino/14.0.0/admin/othr_domino_backup_c.html)
-- [Überwachung von Ereignissen im Domino-System](https://help.hcl-software.com/domino/14.0.0/admin/othr_domino_monitoring_events_c.html)
-- [Contingency Planning Guide for IT Systems auf csrc.nist.gov](https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final)
+- [Das Domino-Sicherheitsmodell](https://help.hcl-software.com/domino/14.0.0/admin/othr_thedominosecuritymodel_c.html)
+- [Die Domino-Server-Protokolldatei (LOG.NSF)](https://help.hcl-software.com/domino/14.0.0/admin/admn_thedominoserverloglognsf_c.html)
+- [Das Domino-Webserver-Protokoll (DOMLOG.NSF)](https://help.hcl-software.com/domino/14.0.0/admin/admn_thedominowebserverlogdomlognsf_c.html)
+- [Backup des Domino-Servers](https://help.hcl-software.com/domino/14.0.0/admin/admn_backingupthedominoserver_t.html)
+- [Überwachung von Ereignissen im Domino-System](hhttps://help.hcl-software.com/domino/14.0.0/admin/admn_monitoringeventsonthedominosystem_c.html)
+- [Leitfaden zur Notfallplanung für IT-Systeme von csrc.nist.gov](http://csrc.nist.gov/publications/nistpubs/index.html)
