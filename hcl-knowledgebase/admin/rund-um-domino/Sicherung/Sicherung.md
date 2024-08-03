@@ -2,7 +2,7 @@
 
 Dieser Abschnitt beschreibt Sicherheitsfunktionen, einschließlich Ausführungskontrolllisten, IDs und TLS.
 
-# [Überblick über Domino-Sicherheit](Überblick über Domino-Sicherheit)
+## [Überblick über Domino-Sicherheit](Überblick über Domino-Sicherheit)
 
 Die Einrichtung der Sicherheit für deine Organisation ist eine kritische Aufgabe. Deine Sicherheitsinfrastruktur ist entscheidend, um die IT-Ressourcen und Vermögenswerte deiner Organisation zu schützen. Als Administrator musst du die Sicherheitsanforderungen deiner Organisation sorgfältig berücksichtigen, bevor du Server oder Benutzer einrichtest. Vorausplanung zahlt sich später aus, indem sie das Risiko von kompromittierter Sicherheit minimiert.
 
