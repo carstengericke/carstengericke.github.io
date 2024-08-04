@@ -48,4 +48,4 @@ In diesem Beispiel enthält der `EndpointSlice` zwei Endpunkte mit den IP-Adress
 
 `EndpointSlices` verbessern die Effizienz und Skalierbarkeit der Netzwerkverwaltung in Kubernetes-Clustern, insbesondere bei der Handhabung großer und dynamischer Anwendungen.
 
-Siehe auch: https://www.kristhecodingunicorn.com/post/kubernetes-service-to-proxy-to-external-services/
+Siehe auch: [kubernetes-service-to-proxy-to-external-services](https://www.kristhecodingunicorn.com/post/kubernetes-service-to-proxy-to-external-services/)
