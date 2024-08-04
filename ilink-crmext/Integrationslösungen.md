@@ -8,8 +8,8 @@ Möchten Sie, dass Ihre Software-Programme perfekt zusammenarbeiten? Wir bieten 
 
 - **Anforderungsanalyse:** Wir verstehen Ihre Geschäftsprozesse und die Bedürfnisse Ihrer Anwender.
 - **Schnittstellenanalyse:** Wir prüfen die vorhandenen APIs und Schnittstellen auf Kompatibilität.
-- **Integrationsdesign:** Wir entwerfen eine Lösung, die Ihre Datenflüsse nahtlos verbindet.
-- **Entwicklung:** Wir erstellen maßgeschneiderte Middleware und Transformationsregeln.
+- **Integrationsdesign:** Wir entwerfen eine Lösung, die Ihre Anwendungen nahtlos verbindet und die Geschäftsprozesse flüssig ablaufen.
+- **Entwicklung:** Wir erstellen maßgeschneiderte Integrationssoftware.
 - **Testen:** Wir führen umfassende Tests durch, um eine reibungslose Funktion zu gewährleisten.
 - **Schulung und Dokumentation:** Wir schulen Ihre Anwender und liefern detaillierte Dokumentation.
 - **Wartung und Support:** Wir bieten kontinuierliche Wartung und schnellen Support bei Problemen.
