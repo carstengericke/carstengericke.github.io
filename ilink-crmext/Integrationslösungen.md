@@ -15,3 +15,6 @@ Möchten Sie, dass Ihre Software-Programme perfekt zusammenarbeiten? Wir bieten 
 - **Wartung und Support:** Wir bieten kontinuierliche Wartung und schnellen Support bei Problemen.
 
 Kontaktieren Sie uns, um mehr über unsere Integrationslösungen zu erfahren und wie wir Ihre Software effizient miteinander verbinden können.
+
+![Integrationslösungen](/assets/images/base-octocat.svg)
+
