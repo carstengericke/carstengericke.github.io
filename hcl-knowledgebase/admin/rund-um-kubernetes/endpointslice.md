@@ -47,3 +47,5 @@ ports:
 In diesem Beispiel enthält der `EndpointSlice` zwei Endpunkte mit den IP-Adressen `10.0.0.1` und `10.0.0.2`, die beide den HTTP-Port 80 verwenden. 
 
 `EndpointSlices` verbessern die Effizienz und Skalierbarkeit der Netzwerkverwaltung in Kubernetes-Clustern, insbesondere bei der Handhabung großer und dynamischer Anwendungen.
+
+Siehe auch: https://www.kristhecodingunicorn.com/post/kubernetes-service-to-proxy-to-external-services/
