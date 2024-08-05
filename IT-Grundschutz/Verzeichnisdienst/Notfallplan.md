@@ -54,7 +54,6 @@ Dieser Notfallplan zielt darauf ab, die Betriebsbereitschaft des HCL Domino Verz
 
 ### 9. Kontaktinformationen
 
-- **IT-Notfallteam**: [Name, Telefonnummer, E-Mail-Adresse]
-- **HCL Support**: [Kontaktinformationen des HCL Supports]
-- **IONOS-Support**: [Kontaktinformationen IONOS]
-
+- **IT-Notfallteam**: [support@ilink.de]
+- **HCL Support**: [https://support.hcltechsw.com/csm](https://support.hcltechsw.com/csm)
+- **IONOS-Support**: [+49 30 577 00 820, support@cloud.ionos.de]
