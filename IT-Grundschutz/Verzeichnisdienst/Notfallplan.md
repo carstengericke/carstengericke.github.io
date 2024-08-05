@@ -37,8 +37,8 @@ Dieser Notfallplan zielt darauf ab, die Betriebsbereitschaft des HCL Domino Verz
 
 ### 6. Kommunikation
 
-- **Interne Kommunikation**: Halte regelmäßige Statusupdates an alle betroffenen Abteilungen und Benutzer bereit.
-- **Externe Kommunikation**: Informiere gegebenenfalls externe Dienstleister oder Partner über den Vorfall und die voraussichtliche Wiederherstellungszeit.
+- **Interne Kommunikation**: Halte regelmäßige Statusupdates bereit.
+- **Externe Kommunikation**: Informiere betroffene Kunden über den Vorfall und die voraussichtliche Wiederherstellungszeit.
 
 ### 7. Dokumentation und Analyse
 
