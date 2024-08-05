@@ -30,9 +30,6 @@
 
 - **Datenverschlüsselung**:
   - Verschlüsselung von Daten im Ruhezustand und während der Übertragung.
-  
-- **End-to-End-Verschlüsselung**:
-  - Einsatz von End-to-End-Verschlüsselung für besonders sensible Daten und Kommunikationskanäle.
 
 **5. Netzwerk- und Systemsicherheit**
 
