@@ -1,3 +1,5 @@
+## Sicherheitsrichtlinie für den Verzeichnisdienst
+
 Zwei Arten von Administratoren mit ihren jeweiligen Verantwortlichkeiten und Berechtigungen:
 
 1. **Benutzer-Administrator** (User Administrator):
