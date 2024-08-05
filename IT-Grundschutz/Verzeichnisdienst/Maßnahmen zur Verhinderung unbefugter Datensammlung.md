@@ -24,7 +24,7 @@
   
 - **Überwachung und Analyse**:
   - Regelmäßige Überprüfung der Protokolle auf verdächtige Aktivitäten.
-  - Einsatz von Sicherheitsinformations- und Ereignismanagement (SIEM)-Systemen zur Echtzeit-Überwachung und Analyse von Sicherheitsereignissen.
+  - Echtzeit-Überwachung und Analyse von Sicherheitsereignissen.
 
 **4. Verschlüsselung**
 
