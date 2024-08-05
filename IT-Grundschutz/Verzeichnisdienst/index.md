@@ -24,5 +24,6 @@ Zwei gibt zwei Arten von Administratoren mit ihren jeweiligen Verantwortlichkeit
 
 [Maßnahmen zur Verhinderung unbefugter Datensammlung](Maßnahmen zur Verhinderung unbefugter Datensammlung)
 
-## Notfallplan
+## Notfallplan und Prozeduren
 [Notfallplan für den Ausfall des HCL Domino Verzeichnisdienstes](Notfallplan)
+[Notfall-Prozeduren](Notfall-Prozeduren)
