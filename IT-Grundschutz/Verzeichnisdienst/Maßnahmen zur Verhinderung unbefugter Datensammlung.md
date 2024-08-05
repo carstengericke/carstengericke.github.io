@@ -24,7 +24,7 @@
   
 - **Überwachung und Analyse**:
   - Regelmäßige Überprüfung der Protokolle auf verdächtige Aktivitäten.
-  - Echtzeit-Überwachung und Analyse von Sicherheitsereignissen.
+  - Echtzeit-Überwachung und Analyse von Sicherheitsereignissen (z.B. Fail2ban).
 
 **4. Verschlüsselung**
 
