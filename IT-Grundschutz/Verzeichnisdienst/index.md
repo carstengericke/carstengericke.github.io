@@ -15,4 +15,3 @@ Zwei gibt zwei Arten von Administratoren mit ihren jeweiligen Verantwortlichkeit
    - Hat keinen Zugriff auf die Verwaltung der Benutzerrollen und -rechte, sondern konzentriert sich auf die technische Wartung und Sicherheit des Systems.
 
 [Sicherheitsrichtlinie für System-Administratoren](Sicherheitsrichtlinie für System-Administratoren)
-
