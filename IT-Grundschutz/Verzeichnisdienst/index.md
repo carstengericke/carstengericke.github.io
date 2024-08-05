@@ -1,6 +1,6 @@
 ## Sicherheitsrichtlinie für den Verzeichnisdienst
 
-Zwei Arten von Administratoren mit ihren jeweiligen Verantwortlichkeiten und Berechtigungen:
+Zwei gibt zwei Arten von Administratoren mit ihren jeweiligen Verantwortlichkeiten und Berechtigungen:
 
 1. **Benutzer-Administrator** (User Administrator):
    - Verantwortlich für die Verwaltung von Benutzerkonten, Rollen und Zugriffsrechten.
