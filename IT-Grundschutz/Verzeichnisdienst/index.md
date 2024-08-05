@@ -19,3 +19,7 @@ Zwei gibt zwei Arten von Administratoren mit ihren jeweiligen Verantwortlichkeit
 ## Berechtigungskonzept
 
 [Berechtigungskonzept](Berechtigungskonzept)
+
+## Maßnahmen
+
+[Maßnahmen zur Verhinderung unbefugter Datensammlung](Maßnahmen zur Verhinderung unbefugter Datensammlung)
