@@ -16,6 +16,10 @@ Zwei gibt zwei Arten von Administratoren mit ihren jeweiligen Verantwortlichkeit
 
 [Sicherheitsrichtlinie für System-Administratoren](Sicherheitsrichtlinie für System-Administratoren)
 
+## Anforderungen und Best Practices zur Sicherung des Verzeichnisdienstes
+
+[Anforderungen und Best Practices zur Sicherung des Verzeichnisdienstes](Anforderungen)
+
 ## Berechtigungskonzept
 
 [Berechtigungskonzept](Berechtigungskonzept)
