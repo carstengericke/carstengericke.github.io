@@ -111,6 +111,11 @@ Die Antwortzeiten eines Verzeichnisdienstes wie HCL Domino sind entscheidend fü
 5. **Überwachung und Tuning**:
    - Regelmäßige Überwachung der Systemleistung und entsprechende Tuning-Maßnahmen können helfen, die Antwortzeiten zu optimieren.
 
+### Anforderung an das LDAP Datenschema
+
+Das LDAP Datenschema inetOrgPerson soll für autorisierte Dienste sichtbar sein.
+[Domino LDAP Datenschema](Domino LDAP Datenschema)
+
 ### Anforderung zur automatischen Erkennung und Behebung eines Verzeichnisserverausfalls durch Kubernetes
 
 **Zielsetzung:**
