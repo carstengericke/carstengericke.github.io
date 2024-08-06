@@ -19,6 +19,7 @@ Zwei gibt zwei Arten von Administratoren mit ihren jeweiligen Verantwortlichkeit
 ## Anforderungen an den Verzeichnisdienst
 
 [Anforderungen an den Verzeichnisdienst](Anforderungen)
+[Domino LDAP Datenschema](Domino LDAP Datenschema)
 
 ## Berechtigungskonzept
 
