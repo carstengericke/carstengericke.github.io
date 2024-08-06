@@ -1,6 +1,6 @@
-### Anforderungen
+# Anforderungen
 
-#### Anforderungen und Best Practices zur Sicherung:
+## Anforderungen und Best Practices zur Sicherung:
 
 1. **Zugriffskontrolle**:
    - Implementierung strenger Access Control Lists (ACLs) zur Beschränkung des Zugriffs auf Verzeichnisdaten.
@@ -46,7 +46,7 @@
     - Regelmäßige Überprüfung und Bereinigung von Benutzer- und Gruppeninformationen, um sicherzustellen, dass nur aktive und autorisierte Konten vorhanden sind.
     - Implementierung von Prozessen zur sofortigen Deaktivierung von Benutzerkonten bei Beendigung des Arbeitsverhältnisses oder bei Sicherheitsvorfällen.
 
-#### Anforderungen an Performance des Verzeichnisdienstes:
+## Anforderungen an Performance des Verzeichnisdienstes:
 
 Die Antwortzeiten eines Verzeichnisdienstes wie HCL Domino sind entscheidend für die Benutzererfahrung und die Gesamtleistung des Systems. Typische Anforderungen an die Antwortzeiten können sich je nach spezifischen Anwendungsfällen und Nutzerszenarien unterscheiden, aber hier sind einige allgemeine Richtlinien und Erwartungen:
 
@@ -110,3 +110,33 @@ Die Antwortzeiten eines Verzeichnisdienstes wie HCL Domino sind entscheidend fü
 
 5. **Überwachung und Tuning**:
    - Regelmäßige Überwachung der Systemleistung und entsprechende Tuning-Maßnahmen können helfen, die Antwortzeiten zu optimieren.
+
+### Anforderung zur automatischen Erkennung und Behebung eines Verzeichnisserverausfalls durch Kubernetes
+
+**Zielsetzung:**
+Sicherstellen, dass der Ausfall des Verzeichnisservers durch Kubernetes automatisch erkannt und behoben wird, um die kontinuierliche Verfügbarkeit und Zuverlässigkeit des Verzeichnisdienstes zu gewährleisten, auch in einer nicht-redundanten Single-Zone Umgebung.
+
+**Anforderung:**
+
+**Automatische Erkennung und Behebung von Verzeichnisserverausfällen durch Kubernetes**
+
+1. **Verfügbarkeit und Überwachung:**
+   - **Liveness Probes:** Der Verzeichnisserver-Pod muss eine Liveness Probe implementieren, die regelmäßig den Gesundheitszustand des Verzeichnisservers überprüft. Diese Probe soll sicherstellen, dass der Pod ordnungsgemäß funktioniert und auf Anfragen reagiert.
+   - **Readiness Probes:** Der Verzeichnisserver-Pod muss eine Readiness Probe implementieren, die überprüft, ob der Pod bereit ist, Traffic zu empfangen. Diese Probe soll sicherstellen, dass der Pod erst dann Traffic empfängt, wenn er vollständig betriebsbereit ist.
+
+2. **Automatische Wiederherstellung:**
+   - **Self-Healing:** Kubernetes muss so konfiguriert sein, dass es automatisch Maßnahmen ergreift, wenn ein Verzeichnisserver-Pod als ungesund erkannt wird. Dies umfasst das automatische Neustarten oder Neuanlegen des Pods.
+   - **Replica Sets:** Der Verzeichnisserver muss als Teil eines Replica Sets konfiguriert werden, auch wenn nur ein Pod ausgeführt wird. Dies stellt sicher, dass Kubernetes bei einem Pod-Ausfall automatisch einen neuen Pod startet.
+
+3. **Protokollierung und Benachrichtigung:**
+   - **Logging:** Der Verzeichnisserver muss so konfiguriert sein, dass er umfassende Logs über den Zustand und die Aktivitäten des Servers erzeugt. Diese Logs sollen in einem zentralen Logging-System gesammelt und überwacht werden.
+   - **Alerts:** Ein Benachrichtigungssystem muss eingerichtet sein, um Administratoren bei Erkennung eines Pod-Ausfalls oder bei Wiederherstellungsversuchen zu benachrichtigen. Dies kann über Tools wie Prometheus und Alertmanager erfolgen.
+
+4. **Eingeschränkte Lastverteilung und Verfügbarkeit:**
+   - **Service Load Balancing:** Obwohl nur ein Pod vorhanden ist, muss Kubernetes einen Service einrichten, der den Traffic an den Pod weiterleitet und sicherstellt, dass der Traffic im Falle eines Pod-Ausfalls zu einem neu erstellten Pod umgeleitet wird, sobald dieser verfügbar ist.
+
+**Erfolgskriterien:**
+- Der Verzeichnisserver muss innerhalb von 30 Sekunden nach Ausfall automatisch neu gestartet oder neu erstellt werden.
+- Die Gesamtzeit zur Wiederherstellung des vollständigen Betriebszustands darf 60 Sekunden nicht überschreiten.
+- Administratoren müssen innerhalb von 1 Minute nach dem Ausfall eine Benachrichtigung erhalten.
+- Während des Ausfalls darf es keine nennenswerte Beeinträchtigung der Benutzerzugriffe auf den Verzeichnisdienst geben, sofern der neue Pod schnell gestartet wird.
