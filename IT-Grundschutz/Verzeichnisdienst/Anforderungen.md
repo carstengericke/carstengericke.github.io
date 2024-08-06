@@ -46,7 +46,7 @@
     - Regelmäßige Überprüfung und Bereinigung von Benutzer- und Gruppeninformationen, um sicherzustellen, dass nur aktive und autorisierte Konten vorhanden sind.
     - Implementierung von Prozessen zur sofortigen Deaktivierung von Benutzerkonten bei Beendigung des Arbeitsverhältnisses oder bei Sicherheitsvorfällen.
 
-#### Anforderungen am Performance Verzeichnisdienstes:
+#### Anforderungen an Performance des Verzeichnisdienstes:
 
 Die Antwortzeiten eines Verzeichnisdienstes wie HCL Domino sind entscheidend für die Benutzererfahrung und die Gesamtleistung des Systems. Typische Anforderungen an die Antwortzeiten können sich je nach spezifischen Anwendungsfällen und Nutzerszenarien unterscheiden, aber hier sind einige allgemeine Richtlinien und Erwartungen:
 
