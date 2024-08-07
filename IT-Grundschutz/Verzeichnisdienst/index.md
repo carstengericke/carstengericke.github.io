@@ -16,6 +16,10 @@ Zwei gibt zwei Arten von Administratoren mit ihren jeweiligen Verantwortlichkeit
 
 [Sicherheitsrichtlinie für System-Administratoren](Sicherheitsrichtlinie für System-Administratoren)
 
+## Planung des Verzeichnisdienst
+
+[Planung des Verzeichnisdienst](Plan)
+
 ## Anforderungen an den Verzeichnisdienst
 
 [Anforderungen an den Verzeichnisdienst](Anforderungen)
