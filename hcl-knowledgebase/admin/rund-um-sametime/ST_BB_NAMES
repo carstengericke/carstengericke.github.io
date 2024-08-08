@@ -1,0 +1,68 @@
+### Frage
+
+Was wird die Einstellung `ST_BB_NAMES__ST_AUTH_TOKEN` in HCL Sametime verwendet?
+
+### Antwort
+
+Die Einstellung `ST_BB_NAMES__ST_AUTH_TOKEN` in HCL Sametime wird verwendet, um Authentifizierungstoken für die sichere Kommunikation zwischen Sametime-Servern zu konfigurieren. Diese Einstellung ist wichtig, um sicherzustellen, dass verschiedene Sametime-Dienste sicher und ordnungsgemäß authentifiziert miteinander kommunizieren können. Hierbei handelt es sich um ein Konfigurationsmerkmal, das von Administratoren verwendet wird, um die Integrität und Sicherheit der Kommunikationsumgebung von Sametime zu gewährleisten.
+
+### Erklärung von `ST_BB_NAMES__ST_AUTH_TOKEN=Fork:Jwt,Ltpa`
+
+Die Einstellung `ST_BB_NAMES__ST_AUTH_TOKEN=Fork:Jwt,Ltpa` in HCL Sametime gibt die Arten von Authentifizierungstoken an, die der Sametime-Server akzeptiert. Hier ist eine detaillierte Erklärung:
+
+1. **Fork**: Das Schlüsselwort "Fork" zeigt an, dass der Server mehrere Authentifizierungstoken-Typen verarbeiten kann. Der Server kann also je nach Art des angetroffenen Tokens verschiedene Mechanismen zur Authentifizierung verwenden.
+
+2. **Jwt (JSON Web Token)**: JWT ist ein kompakter, URL-sicherer Weg, um Behauptungen zwischen zwei Parteien zu übertragen. Die Behauptungen werden als JSON-Objekt kodiert, das signiert oder verschlüsselt werden kann. In Sametime ermöglicht die Angabe von `Jwt`, dass Sametime-Dienste JSON Web Tokens zur Authentifizierung verwenden können. JWTs werden häufig zur sicheren Übertragung von Informationen zwischen Parteien verwendet.
+
+3. **Ltpa (Lightweight Third-Party Authentication)**: LTPA ist ein tokenbasiertes Authentifizierungsverfahren, das in IBM/HCL-Umgebungen verwendet wird und Single Sign-On (SSO)-Fähigkeiten bietet. Durch die Angabe von `Ltpa` können Sametime-Dienste LTPA-Token zur Authentifizierung nutzen.
+
+**Kombinierte Verwendung**: Durch die Angabe von `ST_BB_NAMES__ST_AUTH_TOKEN=Fork:Jwt,Ltpa` wird der Sametime-Server so konfiguriert, dass er sowohl JWT- als auch LTPA-Token zur Authentifizierung akzeptiert. Dies bietet Flexibilität und Interoperabilität in Umgebungen, in denen verschiedene Authentifizierungsmechanismen verwendet werden.
+
+### Vorteile dieser Konfiguration
+
+- **Flexibilität**: Unterstützung für mehrere Authentifizierungsmechanismen erleichtert die Integration mit verschiedenen Systemen und Diensten.
+- **Sicherheit**: Sowohl JWT als auch LTPA sind sichere, tokenbasierte Authentifizierungsverfahren, die die Kommunikation zwischen Sametime-Diensten schützen.
+- **Interoperabilität**: Diese Einstellung ermöglicht es Sametime, in Umgebungen nahtlos zu arbeiten, in denen verschiedene Authentifizierungstoken verwendet werden.
+
+### Praktisches Beispiel
+
+Ein Unternehmen könnte einige Dienste haben, die JWTs zur Authentifizierung verwenden, und andere, die LTPA-Token nutzen. Durch die Konfiguration von Sametime mit `Fork:Jwt,Ltpa` wird sichergestellt, dass Sametime Anfragen von beiden Token-Typen authentifizieren und autorisieren kann.
+
+### Abschnitt `ST_BB_NAMES` in der Sametime-Konfiguration
+
+Der Abschnitt `ST_BB_NAMES` in der HCL Sametime-Konfiguration wird verwendet, um verschiedene Einstellungen im Zusammenhang mit dem Business Card Service (BCS) des Sametime-Servers zu konfigurieren. Dieser Dienst ist für die Verwaltung und Anzeige von Benutzerprofilinformationen zuständig.
+
+### Hauptfunktionen des Abschnitts `ST_BB_NAMES`
+
+1. **Authentifizierung und Autorisierung**: Einstellungen wie `ST_AUTH_TOKEN` bestimmen die Methoden und Tokens, die zur Authentifizierung und Autorisierung von Anfragen an den Business Card Service verwendet werden.
+
+2. **Dienstkonfiguration**: Verschiedene Parameter in diesem Abschnitt definieren, wie der Business Card Service mit Verzeichnisdiensten (wie LDAP) und anderen Sametime-Komponenten interagiert.
+
+3. **Anpassung**: Administratoren können das Verhalten und die Darstellung der Visitenkarteninformationen anpassen, um die Anforderungen der Organisation zu erfüllen.
+
+### Beispielhafte Einstellungen und deren Verwendung
+
+- **`ST_AUTH_TOKEN`**: Gibt die Arten von Token an, die zur Authentifizierung akzeptiert werden (z.B. JWT, LTPA).
+- **`ST_LOOKUP_URL`**: Definiert möglicherweise die URL oder den Endpunkt zur Abfrage von Benutzerinformationen in einem externen Verzeichnis oder einer Datenbank.
+- **`ST_CACHE_TTL`**: Gibt die Gültigkeitsdauer für zwischengespeicherte Benutzerinformationen an.
+- **`ST_DIRECTORY_TYPE`**: Definiert den Typ des Verzeichnisdienstes (z.B. LDAP, Domino).
+
+### Praktisches Beispiel
+
+Angenommen, ein Unternehmen speichert Benutzerinformationen in einem LDAP-Verzeichnis. Der Abschnitt `ST_BB_NAMES` würde dann Einstellungen enthalten, um eine Verbindung zum LDAP-Verzeichnis herzustellen, Anfragen zu authentifizieren und Benutzerinformationen abzurufen.
+
+Beispielkonfiguration:
+
+```plaintext
+ST_BB_NAMES__ST_DIRECTORY_TYPE=LDAP
+ST_BB_NAMES__ST_LOOKUP_URL=ldap://ldap.beispiel.com
+ST_BB_NAMES__ST_AUTH_TOKEN=Fork:Jwt,Ltpa
+ST_BB_NAMES__ST_CACHE_TTL=3600
+```
+
+In diesem Beispiel:
+- `ST_DIRECTORY_TYPE` ist auf `LDAP` gesetzt.
+- `ST_LOOKUP_URL` gibt die URL des LDAP-Servers an.
+- `ST_AUTH_TOKEN` erlaubt die Verwendung von JWT- und LTPA-Tokens zur Authentifizierung.
+- `ST_CACHE_TTL` legt die Cache-Dauer für Benutzerinformationen auf 3600 Sekunden (1 Stunde) fest.
+
