@@ -1,0 +1,152 @@
+**Best Practice: Wiederaufbau von HCL Sametime Docker-Containern aus Git-Repository**
+
+### Einleitung
+
+Dieser Leitfaden beschreibt die Best Practices für das Auschecken von Docker-Compose-Konfigurationsdateien (`docker-compose.yaml`, `.env`, `custom.env`) aus einem Git-Repository und den anschließenden Wiederaufbau der HCL Sametime Docker-Container. Dieser Prozess stellt sicher, dass die Container stets mit der aktuellen Konfiguration aus dem Versionskontrollsystem synchronisiert werden.
+
+### Zielsetzung
+
+Das Ziel dieses Dokuments ist es, eine klare und konsistente Methode zu etablieren, um die HCL Sametime Docker-Container aus den Konfigurationsdateien im Git-Repository neu aufzubauen. Dadurch wird sichergestellt, dass die Container immer mit den neuesten und getesteten Konfigurationen betrieben werden.
+
+### Vorgehensweise
+
+#### 1. **Vorbereitung**
+
+1. **Zugriffsrechte sicherstellen**:
+   - Vergewissere dich, dass du die notwendigen Zugriffsrechte für das Git-Repository und Docker-Umgebung hast.
+
+2. **Erforderliche Werkzeuge**:
+   - Git
+   - Docker
+   - Docker Compose
+
+#### 2. **Auschecken der Konfigurationsdateien**
+
+1. **Git-Repository klonen oder aktualisieren**:
+   - Klone das Repository, falls es noch nicht geklont wurde, oder aktualisiere es, um die neuesten Änderungen zu erhalten.
+
+   Beispiel-Befehle:
+
+   ```bash
+   # Repository klonen (falls noch nicht vorhanden)
+   git clone https://github.com/dein-repo/dein-projekt.git
+   cd dein-projekt
+
+   # Repository aktualisieren (falls bereits geklont)
+   git pull origin main
+   ```
+
+2. **Überprüfen der Konfigurationsdateien**:
+   - Stelle sicher, dass die Konfigurationsdateien (`docker-compose.yaml`, `.env`, `custom.env`) vorhanden sind und die richtigen Einstellungen enthalten.
+
+   Beispiel-Befehl zum Überprüfen der Dateien:
+
+   ```bash
+   ls -l docker-compose.yaml .env custom.env
+   ```
+
+#### 3. **Docker-Umgebung vorbereiten**
+
+1. **Stoppen und Entfernen der alten Container**:
+   - Stoppe und entferne die laufenden Container, die durch das alte Setup definiert sind.
+
+   Beispiel-Befehl:
+
+   ```bash
+   docker-compose down
+   ```
+
+2. **Netzwerke und Volumes bereinigen (falls notwendig)**:
+   - Entferne alte Netzwerke und Volumes, die möglicherweise noch an die alte Konfiguration gebunden sind.
+
+   Beispiel-Befehl:
+
+   ```bash
+   docker network prune -f
+   docker volume prune -f
+   ```
+
+#### 4. **Container neu aufbauen und starten**
+
+1. **Bauen und starten der Container**:
+   - Verwende Docker Compose, um die Container neu zu bauen und zu starten.
+
+   Beispiel-Befehl:
+
+   ```bash
+   docker-compose up --build -d
+   ```
+
+   - `--build` stellt sicher, dass die Container-Images neu gebaut werden, falls es Änderungen an den Dockerfiles gibt.
+   - `-d` startet die Container im Hintergrund.
+
+2. **Überprüfen des Container-Status**:
+   - Überprüfe, ob die Container erfolgreich gestartet wurden und keine Fehler auftreten.
+
+   Beispiel-Befehl:
+
+   ```bash
+   docker-compose ps
+   ```
+
+   Beispiel-Befehl für Logs:
+
+   ```bash
+   docker-compose logs
+   ```
+
+#### 5. **Validierung und Tests**
+
+1. **Überprüfen der Container-Funktionalität**:
+   - Stelle sicher, dass die HCL Sametime-Dienste ordnungsgemäß laufen und erreichbar sind.
+
+2. **Durchführen von Tests**:
+   - Führe Tests durch, um sicherzustellen, dass die Konfigurationen wie erwartet funktionieren. Dies könnte Testaufrufe, Verbindungstests oder andere spezifische Überprüfungen umfassen.
+
+#### 6. **Dokumentation und Wartung**
+
+1. **Dokumentieren der Änderungen**:
+   - Halte alle durchgeführten Änderungen und Konfigurationsupdates in der Dokumentation fest. Dies kann in einem Änderungsprotokoll oder einem entsprechenden Dokument erfolgen.
+
+2. **Regelmäßige Updates und Überprüfungen**:
+   - Plane regelmäßige Überprüfungen und Updates der Docker-Container und der Konfigurationsdateien, um sicherzustellen, dass die Umgebung immer aktuell und sicher bleibt.
+
+### Zusammenfassung
+
+Das Wiederaufbauen von HCL Sametime Docker-Containern aus einem Git-Repository erfordert das Auschecken der aktuellen Konfigurationsdateien (`docker-compose.yaml`, `.env`, `custom.env`), das Stoppen und Entfernen von alten Containern, das Neubauen und Starten der Container sowie die Validierung der neuen Konfigurationen. Durch die Befolgung dieser Best Practices kannst du sicherstellen, dass deine Container-Umgebung immer mit den neuesten und getesteten Konfigurationen betrieben wird.
+
+### Beispiel-Skript zur Automatisierung des Prozesses
+
+Hier ist ein einfaches Bash-Skript zur Automatisierung des Prozesses:
+
+```bash
+#!/bin/bash
+
+# Konfiguriere Repository und Branch
+REPO_URL="https://github.com/dein-repo/dein-projekt.git"
+BRANCH="main"
+REPO_DIR="dein-projekt"
+
+# Klone oder aktualisiere das Repository
+if [ -d "$REPO_DIR" ]; then
+    cd "$REPO_DIR"
+    git pull origin $BRANCH
+else
+    git clone $REPO_URL
+    cd "$REPO_DIR"
+fi
+
+# Bereinige alte Container
+docker-compose down
+docker network prune -f
+docker volume prune -f
+
+# Baue und starte die Container neu
+docker-compose up --build -d
+
+# Überprüfe den Status
+docker-compose ps
+docker-compose logs
+```
+
+Führe dieses Skript aus, um den gesamten Prozess zu automatisieren und die HCL Sametime Docker-Container entsprechend den neuesten Konfigurationen aus dem Git-Repository neu aufzubauen.
