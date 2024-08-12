@@ -20,7 +20,7 @@
 
 ### 1. Einleitung
 
-Willkommen zur Benutzerdokumentation für das Logging-System der **ilink CRM Extensions**. Diese Anleitung hilft Ihnen, das Logging-System zu verstehen und optimal zu nutzen, um die Aktivitäten der Anwendung zu überwachen und eventuelle Probleme zu diagnostizieren.
+Willkommen zur Benutzerdokumentation für das Logging-System der **ilink CRM Extensions**. Diese Anleitung hilft dir dabei, das Logging-System zu verstehen und es optimal zu nutzen, um die Aktivitäten der Anwendung zu überwachen und eventuelle Probleme zu diagnostizieren.
 
 ### 2. Überblick über das Logging-System
 
@@ -29,29 +29,29 @@ Das Logging-System der **ilink CRM Extensions** bietet zwei Hauptmodi:
 - **Info-Modus:** Dieser Modus protokolliert nur grundlegende Informationen wie den Start und das Ende der Anwendung sowie die Verbindungsstatus.
 - **Debug-Modus:** Dieser Modus bietet detaillierte Informationen, die bei der Diagnose von Problemen hilfreich sind.
 
-Für jedes Modul der Anwendung können Sie individuell festlegen, ob es im Debug-Modus arbeiten soll oder nicht. Diese Einstellungen werden in spezifischen INI-Dateien gespeichert.
+Für jedes Modul der Anwendung kannst du individuell festlegen, ob es im Debug-Modus arbeiten soll oder nicht. Diese Einstellungen werden in spezifischen INI-Dateien gespeichert.
 
 ### 3. Benutzung der Benutzeroberfläche zur Debug-Aktivierung
 
 #### 3.1 Zugriff auf die Log-Einstellungen
 
-1. Starten Sie die **ilink CRM Extensions**.
-2. Gehen Sie ins **Einstellungen**-Menü.
-3. Wählen Sie den Abschnitt **Log-Einstellungen** aus, um die Log-Optionen der verschiedenen Module zu sehen.
+1. Starte die **ilink CRM Extensions**.
+2. Gehe ins **Einstellungen**-Menü.
+3. Wähle den Abschnitt **Log-Einstellungen** aus, um die Log-Optionen der verschiedenen Module zu sehen.
 
 #### 3.2 Aktivierung des Debug-Modus für einzelne Module
 
-1. Im **Log-Einstellungen**-Bereich sehen Sie eine Liste der verfügbaren Module, z.B.:
+1. Im **Log-Einstellungen**-Bereich siehst du eine Liste der verfügbaren Module, z.B.:
    - Telefonsystem-Verbindung
    - Datenbank-Verbindungen
    - Rufnummern-Suchalgorithmus
 2. Für jedes Modul gibt es eine Checkbox **Debug-Modus aktivieren**.
-3. Aktivieren Sie die Checkbox für das Modul, für das Sie den Debug-Modus aktivieren möchten.
+3. Aktiviere die Checkbox für das Modul, für das du den Debug-Modus aktivieren möchtest.
 4. Die Änderung wird automatisch in der entsprechenden INI-Datei gespeichert.
 
 #### 3.3 Deaktivierung des Debug-Modus
 
-1. Um den Debug-Modus wieder zu deaktivieren, entfernen Sie das Häkchen in der Checkbox des entsprechenden Moduls.
+1. Um den Debug-Modus wieder zu deaktivieren, entferne das Häkchen in der Checkbox des entsprechenden Moduls.
 2. Die Änderung wird ebenfalls sofort in der INI-Datei gespeichert, und das Modul wechselt in den Info-Modus.
 
 ### 4. Verständnis der Log-Dateien
@@ -83,25 +83,25 @@ DebugEnabled=True  ; oder False
 
 #### 5.2 Manuelle Anpassung der INI-Dateien (Optional)
 
-Falls Sie den Debug-Modus manuell aktivieren oder deaktivieren möchten, können Sie die INI-Dateien mit einem Texteditor bearbeiten:
-1. Navigieren Sie zu `%AppData%\Roaming\ilink\CRM Extensions\CFG`.
-2. Öffnen Sie die INI-Datei des gewünschten Moduls.
-3. Ändern Sie den Wert `DebugEnabled` auf `True` oder `False`.
-4. Speichern Sie die Datei und schließen Sie den Editor.
+Falls du den Debug-Modus manuell aktivieren oder deaktivieren möchtest, kannst du die INI-Dateien mit einem Texteditor bearbeiten:
+1. Navigiere zu `%AppData%\Roaming\ilink\CRM Extensions\CFG`.
+2. Öffne die INI-Datei des gewünschten Moduls.
+3. Ändere den Wert `DebugEnabled` auf `True` oder `False`.
+4. Speichere die Datei und schließe den Editor.
 
 Die Änderungen werden beim nächsten Zugriff des Moduls auf die INI-Datei wirksam.
 
 ### 6. Häufige Fragen (FAQ)
 
 **Frage:** Wie kann ich sehen, ob der Debug-Modus aktiviert ist?
-- **Antwort:** Sie können dies in der Benutzeroberfläche unter **Log-Einstellungen** überprüfen oder die INI-Datei des Moduls ansehen.
+- **Antwort:** Du kannst dies in der Benutzeroberfläche unter **Log-Einstellungen** überprüfen oder die INI-Datei des Moduls ansehen.
 
 **Frage:** Kann ich mehrere Module gleichzeitig im Debug-Modus betreiben?
-- **Antwort:** Ja, Sie können den Debug-Modus für mehrere Module gleichzeitig aktivieren.
+- **Antwort:** Ja, du kannst den Debug-Modus für mehrere Module gleichzeitig aktivieren.
 
 **Frage:** Werden meine Log-Einstellungen nach einem Neustart der Anwendung beibehalten?
 - **Antwort:** Ja, die Einstellungen werden in den INI-Dateien gespeichert und bleiben auch nach einem Neustart der Anwendung erhalten.
 
 ---
 
-Diese Dokumentation sollte Ihnen helfen, das Logging-System der **ilink CRM Extensions** effektiv zu nutzen und bei Bedarf detaillierte Logs zu erzeugen, um Fehler schnell und präzise zu diagnostizieren.
+Diese Dokumentation sollte dir helfen, das Logging-System der **ilink CRM Extensions** effektiv zu nutzen und bei Bedarf detaillierte Logs zu erzeugen, um Fehler schnell und präzise zu diagnostizieren.
