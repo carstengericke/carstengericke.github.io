@@ -1,0 +1,50 @@
+### Checkliste zur Überprüfung der Sicherheitskonfiguration eines Nginx-Webservers
+
+#### 1. **Dateiberechtigungen und Eigentümerschaft**
+   - [ ] **Dateiberechtigungen für Konfigurationsdateien**
+     - Besitzer von `/etc/nginx/nginx.conf` ist `nginx`.
+     - Berechtigungen für `/etc/nginx/nginx.conf` sind auf `600` gesetzt.
+   - [ ] **Dateiberechtigungen für Web-Inhaltsdateien**
+     - Besitzer aller Web-Inhaltsdateien (z.B. HTML, PHP, Skripte) ist `nginx`.
+     - Verzeichnisberechtigungen auf `750` und Dateiberechtigungen auf `640` gesetzt.
+
+#### 2. **Verzeichnisschutz und Zugriffsbeschränkungen in der Nginx-Konfiguration**
+   - [ ] **Zugriff auf sensible Verzeichnisse eingeschränkt**
+     - Regel in der Nginx-Konfiguration hinzugefügt, um den Zugriff auf `.htaccess`, `.env`, `.git` und ähnliche Dateien zu blockieren.
+   - [ ] **Direkter Zugriff auf Skript- oder Konfigurationsdateien verhindert**
+     - Regel in der Nginx-Konfiguration hinzugefügt, um den Zugriff auf `.config`, `.ini`, `.sh`, `.bash`, `.conf` Dateien zu blockieren.
+
+#### 3. **Sicherer Betrieb des Nginx-Prozesses**
+   - [ ] **Nginx läuft unter einem nicht privilegierten Benutzer**
+     - Nginx ist so konfiguriert, dass es unter dem Benutzer `nginx` läuft, nicht unter `root`.
+   - [ ] **Unnötige Module und Dienste deaktiviert**
+     - Alle nicht benötigten Module und Dienste in der Nginx-Konfiguration deaktiviert.
+
+#### 4. **Verwaltung des Zugriffs auf den Server**
+   - [ ] **SSH-Zugriff abgesichert**
+     - Passwort-Authentifizierung deaktiviert, SSH-Zugriff nur per Schlüssel authentifiziert.
+     - `root`-Login deaktiviert.
+     - SSH-Zugriff nur für spezifische Benutzer und IP-Adressen erlaubt.
+   - [ ] **File Integrity Monitoring implementiert**
+     - Ein Monitoring-Tool wie `AIDE` oder `Tripwire` ist installiert und konfiguriert, um Änderungen an wichtigen Dateien zu überwachen.
+
+#### 5. **Backup und Wiederherstellungspläne**
+   - [ ] **Regelmäßige Backups durchgeführt**
+     - Regelmäßige Backups der kritischen Dateien und Konfigurationen werden erstellt und sicher gespeichert.
+   - [ ] **Wiederherstellungspläne getestet**
+     - Wiederherstellungspläne wurden getestet und funktionieren einwandfrei.
+
+#### 6. **Firewall-Regeln implementieren**
+   - [ ] **Firewall ist korrekt konfiguriert**
+     - Firewall (z.B. `ufw` oder `iptables`) ist konfiguriert, um den Zugriff auf notwendige Dienste und Ports zu beschränken.
+     - Nur erforderliche Ports sind offen; unnötige Ports (z.B. SSH auf Port 22) sind gesperrt oder stark eingeschränkt.
+
+#### 7. **Selbständige Sicherheitstests und Audits**
+   - [ ] **Regelmäßige Sicherheitsüberprüfungen durchgeführt**
+     - Sicherheitsüberprüfungen und Penetrationstests wurden regelmäßig durchgeführt, und alle gefundenen Schwachstellen wurden behoben.
+
+---
+
+### Fazit
+- Wenn alle Punkte der Checkliste als "Erledigt" markiert sind, ist der Nginx-Webserver gut gegen unbefugten Zugriff und Änderungen geschützt.
+- Regelmäßige Überprüfung dieser Punkte hilft, die Sicherheit langfristig aufrechtzuerhalten.

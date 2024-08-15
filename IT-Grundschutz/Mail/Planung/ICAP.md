@@ -1,0 +1,5 @@
+HCL Domino 14 unterstützt das Scannen von E-Mail-Anhängen auf Viren über **Internet Content Adaptation Protocol (ICAP)**. Mit dieser neuen Funktionalität kann HCL Domino E-Mail-Anhänge an einen externen ICAP-Server weiterleiten, der die Dateien mit einem Virenscanner, wie beispielsweise ClamAV, prüft. Dies ermöglicht eine effektive Virenerkennung und erhöht die Sicherheit der E-Mail-Kommunikation.
+
+Diese Integration entlastet den Domino-Server, da er die eigentliche Virusprüfung nicht selbst durchführen muss, sondern diese Aufgabe an den ICAP-Server delegiert. Diese neue Möglichkeit stellt eine wertvolle Erweiterung für Unternehmen dar, die ihre E-Mail-Sicherheit optimieren möchten.
+
+Weitere Details zur Konfiguration und Nutzung findest Du im [offiziellen HCL-Artikel](https://help.hcl-software.com/domino/14.0.0/admin/conf_scanningattachmentsforviruses.html).

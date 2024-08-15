@@ -1,0 +1,84 @@
+### Empfehlung zum Setzen der Berechtigungen für Nginx-Konfigurationsdateien in Kubernetes-Umgebungen
+
+**Ziel:**  
+Sicherstellen, dass die Nginx-Konfigurationsdateien in einer Kubernetes-Umgebung vor unbefugtem Zugriff und Änderungen geschützt sind, während die Prinzipien der minimalen Berechtigungen und Pod-Sicherheit gewahrt bleiben.
+
+---
+
+### 1. **Prinzip der minimalen Berechtigungen anwenden**
+
+- **Empfohlene Berechtigungen:**  
+  Setze die Berechtigungen für die Nginx-Konfigurationsdateien (z.B. `nginx.conf`) auf `600`. Dies bedeutet, dass nur der Besitzer der Datei (in der Regel der Benutzer `nginx`) Leserechte und Schreibrechte hat, während andere Benutzer im Pod keinen Zugriff auf die Datei haben.
+  - **Befehl:**
+    ```bash
+    chmod 600 /etc/nginx/nginx.conf
+    chown nginx:nginx /etc/nginx/nginx.conf
+    ```
+
+### 2. **Konfigurationsdateien in Kubernetes über ConfigMaps verwalten**
+
+- **ConfigMap-Mounts und Berechtigungen:**  
+  Beim Mounten von Konfigurationsdateien über eine Kubernetes ConfigMap werden die Dateien standardmäßig mit `644` Berechtigungen bereitgestellt. Diese Standardberechtigungen gewähren Lesezugriff für alle Benutzer im Pod, was potenziell unsicher ist.
+
+- **Empfehlung:**  
+  Nach dem Mounten der ConfigMap solltest du die Berechtigungen für die Nginx-Konfigurationsdateien in einem Init-Container oder durch ein Start-Skript ändern, sodass sie `600` betragen.
+  - **Beispiel-Skript im Pod:**
+    ```bash
+    #!/bin/sh
+    chmod 600 /etc/nginx/nginx.conf
+    chown nginx:nginx /etc/nginx/nginx.conf
+    ```
+
+  - **Beispiel-Konfiguration für einen Init-Container:**
+    ```yaml
+    apiVersion: v1
+    kind: Pod
+    metadata:
+      name: nginx-pod
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        volumeMounts:
+        - name: nginx-config
+          mountPath: /etc/nginx/nginx.conf
+          subPath: nginx.conf
+      initContainers:
+      - name: set-permissions
+        image: busybox
+        command: ['sh', '-c', 'chmod 600 /etc/nginx/nginx.conf && chown nginx:nginx /etc/nginx/nginx.conf']
+        volumeMounts:
+        - name: nginx-config
+          mountPath: /etc/nginx/nginx.conf
+          subPath: nginx.conf
+      volumes:
+      - name: nginx-config
+        configMap:
+          name: nginx-config
+    ```
+
+### 3. **Kubernetes RBAC und SecurityContext nutzen**
+
+- **RBAC:**  
+  Stelle sicher, dass Kubernetes Role-Based Access Control (RBAC) so konfiguriert ist, dass nur autorisierte Benutzer und Dienste auf den Pod und seine Ressourcen zugreifen können. Dies verhindert, dass unbefugte Benutzer die Dateien ändern oder lesen können, selbst wenn sie Zugriff auf den Pod haben.
+
+- **SecurityContext:**  
+  Konfiguriere den SecurityContext des Pods so, dass der Nginx-Prozess unter dem nicht privilegierten Benutzer `nginx` läuft und nicht als `root`.
+  - **Beispiel:**
+    ```yaml
+    securityContext:
+      runAsUser: 1000  # UID des nginx-Benutzers
+      fsGroup: 1000    # GID des nginx-Benutzers
+    ```
+
+### 4. **Zusätzliche Sicherheit durch regelmäßige Überprüfungen**
+
+- **File Integrity Monitoring (FIM):**  
+  Implementiere ein Monitoring-Tool, um Änderungen an den Nginx-Konfigurationsdateien zu überwachen. Dies kann eine zusätzliche Sicherheitsebene bieten, indem es sicherstellt, dass jede unautorisierte Änderung schnell erkannt wird.
+
+- **Regelmäßige Audits:**  
+  Führe regelmäßige Sicherheitsüberprüfungen und Audits der Pod-Konfiguration und der Dateiberechtigungen durch, um sicherzustellen, dass alle Sicherheitsrichtlinien eingehalten werden.
+
+### Fazit
+
+Das Setzen restriktiver Berechtigungen wie `600` für Nginx-Konfigurationsdateien innerhalb von Kubernetes-Pods ist ein wichtiger Schritt zur Sicherung der Konfiguration gegen unbefugten Zugriff und Änderungen. In Kombination mit Kubernetes-spezifischen Sicherheitsmechanismen wie RBAC und SecurityContext kannst du sicherstellen, dass die Dateien optimal geschützt sind, ohne den Betrieb zu beeinträchtigen.

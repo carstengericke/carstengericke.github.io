@@ -1,0 +1,47 @@
+## Absichern eines HCL Domino Webservers
+
+Hier sind die grundlegenden Maßnahmen zur Absicherung eines Domino-Webservers:
+
+### 1. **Aktualisierung und Patching**
+   - **Regelmäßige Updates**: Stelle sicher, dass der Domino-Server und alle seine Komponenten regelmäßig aktualisiert werden. Installiere Sicherheits-Patches sofort nach ihrer Veröffentlichung, um bekannte Sicherheitslücken zu schließen.
+
+### 2. **SSL/TLS-Konfiguration**
+   - **SSL/TLS verwenden**: Aktiviere HTTPS für alle Webverbindungen. Ein SSL-Zertifikat muss korrekt installiert und konfiguriert sein.
+   - **Veraltete Protokolle deaktivieren**: Deaktiviere SSLv2, SSLv3 und TLS 1.0, um sicherzustellen, dass nur sichere Versionen des Protokolls verwendet werden.
+     - Dies kann in der `server document` und durch Anpassung der `Internet Site Document` für den HTTP-Prozess konfiguriert werden.
+
+### 3. **Zugriffsbeschränkungen**
+   - **Authentifizierung und Autorisierung**: Setze strikte Authentifizierungsmechanismen ein und stelle sicher, dass Benutzer nur auf die Informationen und Ressourcen zugreifen können, für die sie autorisiert sind.
+   - **IP-Adressen filtern**: Verwende Netzwerkregelungen, um den Zugriff auf sensible Bereiche des Servers auf bestimmte IP-Adressen oder Netzwerke zu beschränken.
+   - **Firewall-Einstellungen**: Stelle sicher, dass nur die notwendigen Ports geöffnet sind. Üblicherweise sollten nur die Ports für HTTP/HTTPS und Notes-Client-Zugriff offen sein.
+
+### 4. **Sichere HTTP-Header**
+   - **HSTS (HTTP Strict Transport Security)**: Erzwinge die Verwendung von HTTPS über HSTS, wenn dies auf dem Domino-Server unterstützt wird.
+   - **X-Content-Type-Options**: Füge Header hinzu, um das MIME-Type-Sniffing zu verhindern.
+   - **X-Frame-Options**: Setze diesen Header, um Clickjacking-Angriffe zu verhindern.
+   - **Content Security Policy (CSP)**: Implementiere CSP, um das Laden von Ressourcen nur aus vertrauenswürdigen Quellen zu erlauben.
+
+### 5. **Sichere Konfigurationen und Dateizugriffsrechte**
+   - **Verzeichnislisten verhindern**: Stelle sicher, dass das Verzeichnislisting deaktiviert ist, um das Durchsuchen von Verzeichnissen durch Unbefugte zu verhindern.
+   - **Dateiberechtigungen**: Achte darauf, dass sensible Dateien (z.B. Konfigurationsdateien) mit restriktiven Berechtigungen versehen sind und nur von autorisierten Benutzern eingesehen werden können.
+   - **Domino Directory Security**: Stelle sicher, dass der Zugriff auf das Domino-Verzeichnis (NAB - Names and Address Book) gut gesichert ist, da es sensible Informationen enthält.
+
+### 6. **Sicherheit der Webanwendungen**
+   - **Input-Validierung**: Implementiere strikte Input-Validierung für alle Webanwendungen, um SQL-Injections, XSS und andere Formen von Angriffen zu verhindern.
+   - **Web Application Firewall (WAF)**: Setze eine WAF vor dem Domino-Server ein, um bösartige Anfragen zu filtern und abzuwehren.
+   - **Datenbank-Design**: Entwerfe und überprüfe regelmäßig die Datenbanken auf Sicherheitslücken und stelle sicher, dass Datenbanken nur die minimal erforderlichen Zugriffsrechte haben.
+
+### 7. **Logging und Monitoring**
+   - **Protokollierung aktivieren**: Stelle sicher, dass alle Zugriffe, Fehler und Sicherheitsvorfälle protokolliert werden.
+   - **Log-Analyse**: Überwache die Log-Dateien regelmäßig auf Anzeichen von unberechtigten Zugriffen oder Angriffen.
+   - **Alerts einrichten**: Richte Alarme für verdächtige Aktivitäten ein, wie z.B. wiederholte fehlgeschlagene Anmeldeversuche oder ungewöhnliche Traffic-Muster.
+
+### 8. **Intrusion Detection und Prevention**
+   - **Intrusion Detection Systems (IDS)**: Setze ein IDS ein, um verdächtige Aktivitäten auf dem Netzwerk zu erkennen.
+   - **Rate Limiting und DoS-Schutz**: Implementiere Mechanismen, um zu verhindern, dass der Server durch eine Flut von Anfragen überlastet wird.
+
+### 9. **Backup und Wiederherstellungspläne**
+   - **Regelmäßige Backups**: Erstelle regelmäßige Backups aller kritischen Daten und stelle sicher, dass diese sicher aufbewahrt werden.
+   - **Wiederherstellungstests**: Teste regelmäßig die Wiederherstellungsverfahren, um sicherzustellen, dass sie im Falle eines Sicherheitsvorfalls effektiv sind.
+
+Durch diese Maßnahmen erhöhst du die Sicherheit deines HCL Domino Webservers erheblich. Beachte, dass Sicherheit ein fortlaufender Prozess ist und regelmäßige Überprüfungen sowie Anpassungen an neue Bedrohungen und Technologien notwendig sind.
