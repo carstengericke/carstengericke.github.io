@@ -1,0 +1,28 @@
+Direkt relevante Gefährdungen für Domino:
+APP.3.2 Webserver
+G 0.11 Ausfall oder Störung von Dienstleistern (C, I, A)
+G 0.15 Abhören (C)
+G 0.18 Fehlplanung oder fehlende Anpassung (C, I, A)
+G 0.19 Offenlegung schützens­werter Informationen (C)
+G 0.21 Manipulation von Hard- und Software (C, I, A)
+G 0.22 Manipulation von Informationen (I)
+G 0.23 Unbefugtes Ein­dringen in IT-Systeme (C, I)
+G 0.25 Ausfall von Geräten oder Systemen (A)
+G 0.26 Fehlfunktion von Geräten oder Systemen (C, I, A)
+G 0.27 Ressourcen­mangel (A)
+G 0.29 Verstoß gegen Gesetze oder Regelungen (C, I, A)
+G 0.30 Fehlerhafte Nutzung oder Administration von Geräten und Systemen (C, I, A)
+G 0.31 Missbrauch von Berechti­gungen (C, I, A)
+G 0.39 Schad­programme (C, I, A)
+G 0.40 Verhinderung von Diensten (Denial of Service) (A)
+G 0.46 Integritäts­verlust schützens­werter Informationen (I)
+
+APP.6 Allgemeine Software
+G 0.18 Fehlplanung oder fehlende Anpassung (C, I, A)
+G 0.20 Informationen oder Produkte aus unzuver­lässiger Quelle (C, I, A)
+G 0.25 Ausfall von Geräten oder Systemen (A)
+G 0.27 Ressourcen­mangel (A)
+G 0.28 Software­schwach­stellen oder ‑fehler (C, I, A)
+G 0.29 Verstoß gegen Gesetze oder Regelungen (C, I, A)
+G 0.31 Missbrauch von Berechti­gungen (C, I, A)
+G 0.45 Datenverlust (A)
