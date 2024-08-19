@@ -17,7 +17,7 @@
 ### **Aufgabe 3: Implementierung eines Tools zur automatisierten Informationsbeschaffung**
 - **Beschreibung:** Implementiere ein Tool zur automatisierten Beschaffung und Weiterleitung von Sicherheitsinformationen.
 - **Aufgaben:**
-  - Wähle ein geeignetes Tool zur Vulnerability Management (z. B. Bigfix, Snort).
+  - Wähle ein geeignetes Tool zur Vulnerability Management (z. B. Bigfix, OpenVAS, Snort).
   - Installiere und konfiguriere das Tool.
   - Richte automatische Benachrichtigungen und Integrationen in bestehende Systeme (z. B. Ticketing, Monitoring) ein.
 

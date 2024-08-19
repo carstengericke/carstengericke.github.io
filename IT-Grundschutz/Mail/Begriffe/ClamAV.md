@@ -1,45 +1,56 @@
-**Amavis (amavisd-new)** ist ein leistungsstarker und flexibler Content-Filter, der hauptsächlich dazu verwendet wird, E-Mails auf Spam, Viren, Malware und andere schädliche Inhalte zu überprüfen. Amavis arbeitet als Middleware, die zwischen einem Mail Transfer Agent (MTA) wie Postfix oder Exim und verschiedenen Anti-Spam- und Anti-Viren-Scannern sitzt, um eingehende und ausgehende E-Mails zu analysieren.
+**ClamAV** ist eine Open-Source-Antiviren-Software, die speziell zur Erkennung von Viren, Malware und anderen schädlichen Programmen entwickelt wurde. Es wird häufig auf Servern, Mail-Gateways und in Netzwerken eingesetzt, um Dateien, E-Mails und andere Daten auf Bedrohungen zu scannen und diese zu blockieren.
 
-### **Funktionen von Amavis**
+### **Funktionen von ClamAV**
 
-1. **Virus-Scanning:**
-   - Amavis kann mit verschiedenen Antiviren-Scannern wie ClamAV, Kaspersky, Sophos oder anderen verbunden werden, um E-Mails auf schädliche Inhalte zu überprüfen. Es leitet die E-Mails an die Antiviren-Scanner weiter und verarbeitet die Ergebnisse, um infizierte E-Mails zu blockieren oder zu markieren.
+1. **Viren- und Malware-Scanning:**
+   - ClamAV kann Dateien, E-Mails und Archive auf bekannte Viren, Trojaner, Würmer und andere Malware-Formen scannen. Es verwendet eine umfangreiche Datenbank von Signaturen, um Bedrohungen zu erkennen.
 
-2. **Spam-Filterung:**
-   - Amavis integriert sich oft mit SpamAssassin, einem weit verbreiteten Spam-Filter, um E-Mails auf Spam-Merkmale zu prüfen. Basierend auf den Bewertungen von SpamAssassin kann Amavis entscheiden, ob eine E-Mail als Spam markiert, in Quarantäne gestellt oder gelöscht wird.
+2. **Echtzeit-Scanning:**
+   - ClamAV kann so konfiguriert werden, dass es Dateien und Datenströme in Echtzeit scannt. Dies ist besonders nützlich für E-Mail-Server und Dateiserver, wo es darauf ankommt, dass Dateien sofort nach dem Empfang überprüft werden.
 
-3. **Inhaltsfilterung:**
-   - Neben Viren- und Spam-Scans kann Amavis auch andere Inhalte überprüfen, wie z.B. Dateianhänge, um sicherzustellen, dass keine unerwünschten oder gefährlichen Dateien über E-Mails gesendet werden.
+3. **Dateiformatunterstützung:**
+   - ClamAV unterstützt eine Vielzahl von Dateiformaten, darunter komprimierte Archive wie ZIP, RAR, GZIP, TAR sowie Dokumentformate wie PDF, MS Office und mehr. Es kann tief in Archive und verschachtelte Dateien hineinschauen, um versteckte Bedrohungen zu finden.
 
-4. **Quarantäne-Management:**
-   - E-Mails, die als verdächtig eingestuft werden, können in einer Quarantäne-Datenbank gespeichert werden. Administratoren können diese E-Mails manuell überprüfen und entscheiden, ob sie zugestellt oder endgültig gelöscht werden sollen.
+4. **Mail-Gateway-Integration:**
+   - ClamAV wird häufig in E-Mail-Gateways eingesetzt, um eingehende und ausgehende E-Mails auf schädliche Anhänge und Links zu überprüfen. Es kann mit Mail-Transfer-Agents (MTAs) wie Postfix, Exim und Sendmail integriert werden.
 
-5. **Integration mit MTAs:**
-   - Amavis kann nahtlos mit verschiedenen MTAs wie Postfix, Exim und Sendmail integriert werden. Es arbeitet als SMTP-Proxy oder als Content-Filter, der die E-Mails vor der endgültigen Zustellung überprüft.
+5. **Clamd-Daemon:**
+   - Der `clamd`-Daemon ist ein zentraler Bestandteil von ClamAV. Er ermöglicht es, Scans effizient im Hintergrund durchzuführen und bietet eine API für Anwendungen, um Scans anzufordern.
 
-6. **Flexibilität und Anpassbarkeit:**
-   - Amavis ist hochgradig konfigurierbar und unterstützt eine Vielzahl von Konfigurationen und Plugins. Dies ermöglicht es Administratoren, die Verarbeitung von E-Mails genau nach den Anforderungen ihrer Organisation anzupassen.
+6. **Freshclam - Automatische Aktualisierung:**
+   - ClamAV verfügt über das `freshclam`-Tool, das die Antiviren-Datenbank automatisch aktualisiert, um sicherzustellen, dass das System gegen die neuesten Bedrohungen geschützt ist.
 
-### **Wie funktioniert Amavis?**
+7. **Plattformübergreifende Unterstützung:**
+   - ClamAV ist plattformübergreifend und kann auf verschiedenen Betriebssystemen wie Linux, Windows und macOS eingesetzt werden.
 
-1. **E-Mail Empfang:**
-   - Wenn eine E-Mail den Mailserver erreicht, wird sie von Amavis verarbeitet. Amavis empfängt die E-Mail vom MTA und leitet sie an die konfigurierten Anti-Spam- und Anti-Viren-Tools weiter.
+### **Einsatzszenarien für ClamAV**
 
-2. **Inhaltsprüfung:**
-   - Amavis analysiert die E-Mail-Inhalte, führt Virenscans durch und überprüft sie auf Spam-Merkmale und andere potenziell schädliche Inhalte.
+1. **E-Mail-Server:**
+   - ClamAV wird oft auf E-Mail-Servern eingesetzt, um eingehende und ausgehende E-Mails auf schädliche Anhänge und Links zu scannen. In Kombination mit Tools wie SpamAssassin und Amavis kann es eine umfassende Sicherheitslösung bieten.
 
-3. **Entscheidung:**
-   - Basierend auf den Ergebnissen der Scans entscheidet Amavis, ob die E-Mail zugestellt, in Quarantäne gestellt, als Spam markiert oder gelöscht wird.
+2. **Dateiserver:**
+   - Auf Dateiservern wird ClamAV verwendet, um Dateien zu scannen, die von Benutzern hochgeladen oder heruntergeladen werden. Es hilft, Malware zu erkennen, bevor sie im Netzwerk verbreitet wird.
 
-4. **Weiterleitung:**
-   - Nach der Prüfung wird die E-Mail an den MTA zurückgegeben, der sie dann an den Empfänger weiterleitet, falls sie als sicher eingestuft wurde.
+3. **Web-Server:**
+   - ClamAV kann in Web-Servern integriert werden, um hochgeladene Dateien, wie z.B. Dokumente oder Bilder, auf Malware zu überprüfen.
 
-### **Typische Einsatzszenarien**
+4. **Desktops und Workstations:**
+   - Obwohl ClamAV primär für Serverumgebungen entwickelt wurde, kann es auch auf Desktop-Computern eingesetzt werden, um Virenscans durchzuführen und Dateien zu überwachen.
 
-- **Mail-Gateways:** Amavis wird häufig in Mail-Gateways eingesetzt, um eingehende und ausgehende E-Mails in Unternehmen zu überprüfen.
-- **E-Mail-Server:** Amavis kann auf E-Mail-Servern eingesetzt werden, die hohe Sicherheitsanforderungen haben, um sicherzustellen, dass keine gefährlichen E-Mails an Benutzer zugestellt werden.
-- **Kombination mit anderen Sicherheitslösungen:** Oft wird Amavis zusammen mit SpamAssassin und ClamAV verwendet, um eine umfassende E-Mail-Sicherheitslösung zu bieten.
+### **Wie ClamAV funktioniert**
+
+1. **Installation und Einrichtung:**
+   - Nach der Installation wird ClamAV mit der aktuellen Virendatenbank konfiguriert. Der `clamd`-Daemon wird gestartet, um im Hintergrund Scans durchzuführen.
+
+2. **Signatur-basierte Erkennung:**
+   - ClamAV verwendet eine Signaturdatenbank, die regelmäßig aktualisiert wird, um bekannte Malware zu erkennen. Es vergleicht Dateien und Datenströme mit den Signaturen in seiner Datenbank.
+
+3. **Scannen und Berichten:**
+   - ClamAV kann manuell oder automatisch Dateien und Verzeichnisse scannen. Wenn es eine Bedrohung erkennt, kann es die Datei in Quarantäne stellen, löschen oder nur einen Bericht erstellen, je nach Konfiguration.
+
+4. **Integration mit anderen Systemen:**
+   - ClamAV kann in andere Sicherheitslösungen integriert werden, um eine vollständige Abdeckung zu bieten. Es wird häufig mit anderen Tools kombiniert, um umfassende Schutzmechanismen für Netzwerke und Server bereitzustellen.
 
 ### **Zusammenfassung**
 
-Amavis ist ein vielseitiger und effektiver Content-Filter, der E-Mails auf Viren, Spam und andere schädliche Inhalte prüft. Es wird häufig in Kombination mit MTAs wie Postfix oder Exim verwendet und ist flexibel genug, um mit verschiedenen Antiviren-Scannern und Spam-Filtern zu arbeiten. Amavis spielt eine zentrale Rolle bei der Sicherung der E-Mail-Kommunikation in Netzwerken, indem es dafür sorgt, dass nur sichere und saubere E-Mails an die Benutzer weitergeleitet werden.
+ClamAV ist ein leistungsstarkes und flexibles Open-Source-Antiviren-Tool, das in vielen Umgebungen eingesetzt wird, um Daten auf Viren, Malware und andere Bedrohungen zu scannen. Es ist besonders geeignet für Server, Mail-Gateways und Netzwerke und bietet eine breite Unterstützung für verschiedene Dateiformate und Plattformen. Durch die regelmäßige Aktualisierung der Virensignaturen und die Möglichkeit der Echtzeitüberwachung ist ClamAV eine wichtige Komponente für die Sicherung moderner IT-Infrastrukturen.
