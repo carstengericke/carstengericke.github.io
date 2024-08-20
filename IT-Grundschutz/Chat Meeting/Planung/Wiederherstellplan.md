@@ -1,10 +1,9 @@
-Hier ist der Wiederanlaufplan in Du-Form:
 
 ### 1. Vorbereitung und Vorbedingungen
 
 1. **Sicherstellen der Infrastruktur:**
    - Stelle sicher, dass die erforderliche Infrastruktur im Zielrechenzentrum bereitsteht, inklusive Serverressourcen, Netzwerkverbindungen, Speicher und Container-Orchestrierung (z.B. Kubernetes-Cluster).
-   - Verifiziere, dass die Container-Umgebung (z.B. Docker und Kubernetes) korrekt installiert und einsatzbereit ist.
+   - Verifiziere, dass die Container-Umgebung korrekt installiert und einsatzbereit ist.
 
 2. **Bereitstellung der nötigen Software:**
    - Sorge dafür, dass alle notwendigen Versionen von HCL Sametime, MongoDB und anderen Abhängigkeiten verfügbar sind und für die Wiederherstellung genutzt werden können.
