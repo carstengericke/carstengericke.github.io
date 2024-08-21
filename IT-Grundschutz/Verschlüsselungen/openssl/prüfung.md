@@ -1,3 +1,4 @@
+```
 for cipher in $(openssl ciphers 'ALL:eNULL' | tr ':' ' '); do 
     echo -n "$cipher : "
     openssl s_client -connect domino.inlakech.de:443 -cipher $cipher < /dev/null 2>/dev/null | grep -E 'Cipher is|handshake failure'
@@ -158,3 +159,4 @@ NULL-MD5 : New, (NONE), Cipher is (NONE)
 PSK-NULL-SHA384 : New, (NONE), Cipher is (NONE)
 PSK-NULL-SHA256 : New, (NONE), Cipher is (NONE)
 PSK-NULL-SHA : New, (NONE), Cipher is (NONE)
+```
