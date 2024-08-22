@@ -10,6 +10,7 @@
 | Beendigung           | Außerbetriebnahme,   Einstellung, Rückbau                                                                                              |
 | Vereinbarungen       | Dienstleister,   Vereinbarungen, Veträge, OLA, SLA                                                                                     |
 | Benutzende           | Verwendung,   Benutzung, Benutzende                                                                                                    |
+
 #### Fragen und Anmerkungen
 - Das Betriebshandbuch bündelt Dokumentation bzw. Handbücher zu den System-Komponenten, die für ein System verwendet werden, das aus Komponenten besteht, die durch die System-Bausteine modelliert werden.
 - Erwähnung der Bausteine in den jeweiligen Kapiteln/Abschnitten
