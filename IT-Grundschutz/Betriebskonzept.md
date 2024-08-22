@@ -1,5 +1,18 @@
 ### Betriebskonzept für HCL Sametime und HCL Verse auf IONOS Managed Kubernetes
 
+| **Handbuch-Kapitel** | **Charakterisierung**                                                                                                                  |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Planung              | Planung,   Entwurf, Design, Anforderungen, Gestaltung, Konzeption, Auswahl, Beschaffung                                                |
+| Einrichtung          | Aufbau,   Deployment, Einrichtung, Installation, Test Umsetzung                                                                        |
+| Betrieb              | Betrieb,   Bereitstellung, Einsatz, Regelbetrieb, Durchführung, Nutzung, Anwendung      Konfiguration, Protokollierung, Datensicherung |
+| Überprüfung          | Überprüfung,   Verbesserung, Audit, Revision, Test                                                                                     |
+| Notfall              | Beeinträchtigung,   Notfall, Krise      Vorbereitung, Not-Betrieb, Nachbereitung, Rückkehr Regelebetrieb                               |
+| Beendigung           | Außerbetriebnahme,   Einstellung, Rückbau                                                                                              |
+| Vereinbarungen       | Dienstleister,   Vereinbarungen, Veträge, OLA, SLA                                                                                     |
+| Benutzende           | Verwendung,   Benutzung, Benutzende                                                                                                    |
+#### Fragen und Anmerkungen
+- Das Betriebshandbuch bündelt Dokumentation bzw. Handbücher zu den System-Komponenten, die für ein System verwendet werden, das aus Komponenten besteht, die durch die System-Bausteine modelliert werden.
+- Erwähnung der Bausteine in den jeweiligen Kapiteln/Abschnitten
 #### 1. Einleitung
 1.1 **Ziele des IT-Betriebskonzepts**  
 Dieses Betriebskonzept beschreibt die organisatorischen und technischen Maßnahmen für den Betrieb von HCL Sametime und HCL Verse auf der IONOS Managed Kubernetes-Plattform. Ziel ist es, einen stabilen, sicheren und effizienten Betrieb zu gewährleisten.
