@@ -9,13 +9,37 @@
 <body>
     <header>
         <nav>
-            <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
             <ul>
-                <li><a href="{{ '/dienstleistungen' | relative_url }}">Dienstleistungen</a></li>
-                <li><a href="{{ '/produkte' | relative_url }}">Produkte</a></li>
-                <li><a href="{{ '/dokumentationen' | relative_url }}">Dokumentationen</a></li>
-                <li><a href="{{ '/ueber-mich' | relative_url }}">Über mich</a></li>
-                <li><a href="{{ '/kontakt' | relative_url }}">Kontakt</a></li>
+                <li>
+                    <a href="{{ page.lang == 'de' ? '/de/' | relative_url : '/en/' | relative_url }}">
+                        {{ page.lang == 'de' ? 'Startseite' : 'Home' }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ page.lang == 'de' ? '/de/dienstleistungen/' | relative_url : '/en/services/' | relative_url }}">
+                        {{ page.lang == 'de' ? 'Dienstleistungen' : 'Services' }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ page.lang == 'de' ? '/de/produkte/' | relative_url : '/en/products/' | relative_url }}">
+                        {{ page.lang == 'de' ? 'Produkte' : 'Products' }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ page.lang == 'de' ? '/de/dokumentationen/' | relative_url : '/en/documentations/' | relative_url }}">
+                        {{ page.lang == 'de' ? 'Dokumentationen' : 'Documentation' }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ page.lang == 'de' ? '/de/ueber-mich/' | relative_url : '/en/about-me/' | relative_url }}">
+                        {{ page.lang == 'de' ? 'Über mich' : 'About Me' }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ page.lang == 'de' ? '/de/kontakt/' | relative_url : '/en/contact/' | relative_url }}">
+                        {{ page.lang == 'de' ? 'Kontakt' : 'Contact' }}
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -26,7 +50,7 @@
                 <h1>{{ page.title }}</h1>
                 <p class="meta">
                     <time datetime="{{ page.date | date_to_xmlschema }}">
-                        {{ page.date | date: "%B %d, %Y" }}
+                        {{ page.lang == 'de' ? page.date | date: "%d.%m.%Y" : page.date | date: "%B %d, %Y" }}
                     </time>
                 </p>
             </header>
@@ -37,7 +61,9 @@
     </main>
 
     <footer>
-        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. 
+            {{ page.lang == 'de' ? 'Alle Rechte vorbehalten.' : 'All rights reserved.' }}
+        </p>
     </footer>
 </body>
 </html>
