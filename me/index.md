@@ -29,7 +29,7 @@ Lerne meine Angebote kennen, darunter IT-Integration, Betrieb und Schulungen. | 
 [English: Products](./en/products)  
 Entdecke leistungsstarke IT-Produkte, die Prozesse optimieren. | Explore powerful IT products to optimize processes.
 
-## Dokumentationen / Documentation
+### Dokumentationen / Documentation
 Stöbere in meinen Anleitungen, die aus echten Kundenprojekten entstanden sind. | Browse through my guides created from real-world customer projects.  
 [Deutsch: Dokumentationen ansehen](./de/dokumentationen)  
 [English: View documentation](./en/documentations)  
