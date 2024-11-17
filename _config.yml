@@ -12,4 +12,3 @@ defaults:
     values:
       lang: "de"
       
-permalink: /:lang/:categories/:title/
