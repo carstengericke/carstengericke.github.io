@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Produkte
-permalink: /produkte/
+permalink: /de/produkte/
 lang: de
 ---
 
