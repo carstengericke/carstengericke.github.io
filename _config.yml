@@ -1,1 +1,15 @@
 title: Wissen zugänglich für alle und immer
+
+languages:
+  default: "de"
+  available:
+    - de
+    - en
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: "de"
+      
+permalink: /:lang/:categories/:title/
