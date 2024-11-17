@@ -15,8 +15,8 @@ Ich bin IT-Experte mit Herz und Verstand und blicke auf 35 Jahre Berufserfahrung
 - **Betrieb und Support:** Organisation des Betriebs, auch nach BSI IT-Grundschutz.
 
 ## Besondere Fähigkeiten
-- **Teambildung:** Ich forme aus kontrovers denkenden Menschen ein Team, das an einem Strang zieht.
-- **Einfühlsamkeit:** Ich verstehe es, die Bedürfnisse und Herausforderungen unterschiedlicher Teams zu erkennen und sie in effektiver Zusammenarbeit zu fördern.
+- **Teambildung:** Aus Menschen mit unterschiedlichen Denkweisen entsteht ein Team, das gemeinsam an einem Strang zieht und auf ein gemeinsames Ziel hinarbeitet.
+- **Einfühlsamkeit:** Es ist wichtig, die unterschiedlichen Bedürfnisse und Herausforderungen von Teams in effektive Zusammenarbeit zu überführen und produktiv zu nutzen, um passende Lösungen zu entwickeln. Genau darauf liegt der Fokus meiner Arbeit.
 - **Erfahrung:** Langjährige Mitarbeit im ECMA-Komitee am CSTA-Standard.
 - **Engagement:** Fachgruppenleiter bei der DNUG für Kommunikation, Chat und Webmeetings sowie HCL Ambassador.
 
