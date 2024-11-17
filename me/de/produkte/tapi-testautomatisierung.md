@@ -18,4 +18,4 @@ Die **TAPI Testautomatisierung** ist eine leistungsstarke Lösung zur automatisi
 - Validierung von Softphones und Kommunikationsanwendungen.
 - Unterstützung bei der Integration von TAPI in bestehende Systeme.
 
-[Zurück zu den Produkten](/de/produkte)
+[Zurück zu den Produkten](.)
