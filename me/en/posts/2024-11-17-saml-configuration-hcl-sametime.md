@@ -12,4 +12,4 @@ SAML (Security Assertion Markup Language) offers secure, centralized login for e
 - Setting up the Identity Provider (IdP).
 - Testing and troubleshooting the configuration.
 
-[Read the full documentation](./documentations)
+[Read the full documentation](../documentations)

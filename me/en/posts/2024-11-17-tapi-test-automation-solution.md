@@ -17,4 +17,4 @@ We are excited to announce the **TAPI Test Automation Solution**, a powerful too
 - Validation of softphones and communication applications.
 - Integration support for TAPI in existing systems.
 
-Explore the potential of TAPI Test Automation to streamline your telephony testing processes. [Learn more on the product page](./products/tapi-test-automation/) or [get in touch](./contact/).
+Explore the potential of TAPI Test Automation to streamline your telephony testing processes. [Learn more on the product page](../products/tapi-test-automation) or [get in touch](../contact).

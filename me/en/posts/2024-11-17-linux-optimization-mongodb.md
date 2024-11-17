@@ -12,4 +12,4 @@ Improving MongoDB performance often requires fine-tuning Linux settings. My new 
 - Optimizing disk I/O for MongoDB.
 - Monitoring MongoDB on Linux systems.
 
-[Read the full documentation](./documentations)
+[Read the full documentation](../documentations)

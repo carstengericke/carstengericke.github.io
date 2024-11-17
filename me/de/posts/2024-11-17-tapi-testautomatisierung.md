@@ -18,4 +18,4 @@ Erfahren Sie mehr auf der [Produktseite](../produkte/tapi-testautomatisierung/).
 
 ---
 
-Haben Sie Fragen oder möchten Sie die TAPI Testautomatisierung in Ihrem Unternehmen einsetzen? [Kontaktieren Sie mich](/de/kontakt).
+Haben Sie Fragen oder möchten Sie die TAPI Testautomatisierung in Ihrem Unternehmen einsetzen? [Kontaktieren Sie mich](../kontakt).

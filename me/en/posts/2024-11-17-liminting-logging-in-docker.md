@@ -12,4 +12,4 @@ Excessive logging in Docker containers can lead to high storage usage and perfor
 - Using `log-driver` options like `json-file` or `syslog`.
 - Monitoring log storage and performance impact.
 
-[Read the full documentation](./documentations)
+[Read the full documentation](../documentations)
