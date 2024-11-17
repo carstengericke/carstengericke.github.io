@@ -30,4 +30,4 @@ Erstelle öffentliche und private Chat-Räume direkt in HCL Sametime.
 
 ## TAPI Testautomatisierung
 Eine Lösung zur automatisierten Prüfung und Qualitätssicherung von TAPI-kompatiblen Telefonanlagen.  
-[Mehr erfahren](./tapi-testautomatisierung/)
+[Mehr erfahren](./tapi-testautomatisierung)
