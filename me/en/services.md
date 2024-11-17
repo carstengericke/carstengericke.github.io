@@ -19,7 +19,10 @@ lang: en
 - Optionally aligning operations with BSI IT baseline protection standards.
 
 ## Training and Workshops
-I offer training and workshops on the following topics: **containerization, Docker, Kubernetes, MongoDB, LDAP, monitoring, alerting, logfile collection, forensics, HCL Sametime, Jitsi, TURN server, SIP, WebRTC, test automation, software and container scans, Harbor Container Registry, Grafana, Prometheus**.  
+I offer training and workshops on the following topics:
+
+containerization, Docker, Kubernetes, MongoDB, LDAP, monitoring, alerting, logfile collection, forensics, HCL Sametime, Jitsi, TURN server, SIP, WebRTC, test automation, software and container scans, Harbor Container Registry, Grafana, Prometheus.  
+
 [Learn more about training](./training)
 
 [Request more information](./contact)
