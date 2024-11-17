@@ -6,19 +6,23 @@ lang: de
 
 # Über mich
 
-Ich habe 35 Jahre Berufserfahrung und bin Gründer sowie Geschäftsführer der Firma ilink.  
-Mein Fokus liegt darauf, bestehende Software zu integrieren und Geschäftsprozesse zu optimieren.
+Ich bin IT-Experte mit Herz und Verstand und blicke auf 35 Jahre Berufserfahrung zurück. Gemeinsam mit einem Freund habe ich vor 35 Jahren die Firma ilink gegründet, in der ich heute als Geschäftsführer tätig bin. Meine Leidenschaft liegt in der Integration bestehender Software und der Optimierung von Geschäftsprozessen.
 
 ## Meine Schwerpunkte
-- **Softwareintegration:** Verbinde bestehende Systeme nahtlos.
-- **Projektleitung:** Plane und steuere komplexe Projekte.
-- **Training on the Job:** Lerne während der Projektarbeit jeden Schritt.
-- **Betrieb und Support:** Organisiere den Betrieb Deiner Software, auch nach BSI IT-Grundschutz.
+- **Softwareintegration:** Verbindung bestehender Systeme, um Prozesse effizienter zu gestalten.
+- **Projektleitung:** Planung und Steuerung komplexer Projekte.
+- **Training on the Job:** Vermittlung von Wissen während der Projektarbeit.
+- **Betrieb und Support:** Organisation des Betriebs, auch nach BSI IT-Grundschutz.
 
-## Meine besonderen Fähigkeiten
-- Ich führe Teams im BSI IT-Grundschutz ein und bilde sie aus.
-- Ich habe viele Jahre im ECMA-Komitee am CSTA-Standard mitgearbeitet.
-- Ich bin Fachgruppenleiter bei der DNUG für Kommunikation, Chat und Webmeetings.
-- Ich bin HCL Ambassador.
+## Besondere Fähigkeiten
+- **Teambildung:** Ich forme aus kontrovers denkenden Menschen ein Team, das an einem Strang zieht.
+- **Einfühlsamkeit:** Ich verstehe es, die Bedürfnisse und Herausforderungen unterschiedlicher Teams zu erkennen und sie in effektiver Zusammenarbeit zu fördern.
+- **Erfahrung:** Langjährige Mitarbeit im ECMA-Komitee am CSTA-Standard.
+- **Engagement:** Fachgruppenleiter bei der DNUG für Kommunikation, Chat und Webmeetings sowie HCL Ambassador.
 
-[Kontaktiere mich](/de/kontakt)
+## Meine Vision
+Neben der erfolgreichen Steuerung von Projekten lege ich Wert darauf, dass die Beteiligten während der Projekte die notwendigen Fähigkeiten erlernen. Mein Ansatz basiert auf „Training on the Job“ – ich erkläre jeden Schritt und sorge dafür, dass Kunden nach Abschluss des Projekts ihre Systeme selbstständig pflegen und weiterentwickeln können.  
+
+Zum Beispiel habe ich Kunden ohne Vorkenntnisse in Linux, Containern oder MongoDB dazu befähigt, das Vertrauen und die Fähigkeit zu entwickeln, diese Technologien eigenständig zu nutzen.
+
+[Kontaktiere mich](./kontakt)
