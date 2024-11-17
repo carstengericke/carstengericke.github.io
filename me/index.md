@@ -15,28 +15,28 @@ Hier findest Du Informationen über meine Arbeit, Dienstleistungen und Produkte.
 ## **Überblick | Overview**
 
 ### Über mich | About Me
-[Deutsch: Über mich](./de/ueber-mich/)  
-[English: About Me](./en/about-me/)  
+[Deutsch: Über mich](./de/ueber-mich)  
+[English: About Me](./en/about-me)  
 Erfahre mehr über meine Erfahrung und meinen beruflichen Werdegang. | Learn more about my experience and professional background.
 
 ### Dienstleistungen | Services
-[Deutsch: Dienstleistungen](./de/dienstleistungen/)  
-[English: Services](./en/services/)  
+[Deutsch: Dienstleistungen](./de/dienstleistungen)  
+[English: Services](./en/services)  
 Lerne meine Angebote kennen, darunter IT-Integration, Betrieb und Schulungen. | Discover my offerings, including IT integration, operations, and training.
 
 ### Produkte | Products
-[Deutsch: Produkte](./de/produkte/)  
-[English: Products](./en/products/)  
+[Deutsch: Produkte](./de/produkte)  
+[English: Products](./en/products)  
 Entdecke leistungsstarke IT-Produkte, die Prozesse optimieren. | Explore powerful IT products to optimize processes.
 
 ### Blog
-[Deutsch: Blog](./de/blog/)  
-[English: Blog](./en/blog/)  
+[Deutsch: Blog](./de/blog)  
+[English: Blog](./en/blog)  
 Lies meine neuesten Beiträge zu IT-Themen und Produktentwicklungen. | Read my latest posts on IT topics and product developments.
 
 ### Kontakt | Contact
-[Deutsch: Kontakt](./de/kontakt/)  
-[English: Contact](./en/contact/)  
+[Deutsch: Kontakt](./de/kontakt)  
+[English: Contact](./en/contact)  
 Hast Du Fragen? Nimm Kontakt auf! | Have questions? Get in touch!
 
 ---

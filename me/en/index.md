@@ -10,17 +10,17 @@ With 35 years of experience in IT integration and software development, my goal 
 
 ## What can you find here?
 
-### [About Me](./about-me/)
+### [About Me](./about-me)
 Learn more about my professional background, areas of expertise, and extensive experience in the IT industry.
 
-### [Services](./services/)
+### [Services](./services)
 Discover my offerings: IT integration, operations and support, as well as training and workshops on various IT topics.
 
-### [Products](./products/)
+### [Products](./products)
 Explore powerful products like ilink CRM Extensions, iOffice Communicator, TeamCall TAP, ilink Chat Rooms, and more.
 
-### [Blog](./blog/)
+### [Blog](./blog)
 Stay updated with my latest posts on IT topics, product developments, and best practices.
 
-### [Contact](./contact/)
+### [Contact](./contact)
 Have questions or want to learn more? Find ways to get in touch with me here.
