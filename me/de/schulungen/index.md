@@ -23,4 +23,4 @@ Ich biete Schulungen und Workshops zu folgenden Themen an:
 - **Harbor Container Registry:** Verwaltung und Sicherheit von Container-Images.
 - **Grafana und Prometheus:** Monitoring- und Visualisierungslösungen für IT-Infrastrukturen.
 
-[Zurück zu den Dienstleistungen](./dienstleistungen)
+[Zurück zu den Dienstleistungen](../dienstleistungen)

@@ -20,8 +20,7 @@ lang: en
 
 ## Training and Workshops
 I offer training and workshops on the following topics:
-
-containerization, Docker, Kubernetes, MongoDB, LDAP, monitoring, alerting, logfile collection, forensics, HCL Sametime, Jitsi, TURN server, SIP, WebRTC, test automation, software and container scans, Harbor Container Registry, Grafana, Prometheus.  
+containerization, Docker, Kubernetes, MongoDB, LDAP, monitoring, alerting, logfile collection, forensics, HCL Sametime, Jitsi, TURN server, SIP, WebRTC, test automation, software and container scans, Harbor Container Registry, Grafana, Prometheus.
 
 [Learn more about training](./training)
 

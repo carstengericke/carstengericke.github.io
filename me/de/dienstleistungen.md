@@ -20,8 +20,8 @@ lang: de
 
 ## Schulungen und Workshops
 Ich biete Schulungen und Workshops zu folgenden Themen an:
+Containerisierung, Docker, Kubernetes, MongoDB, LDAP, Monitoring, Alarmierung, Logfile-Sammlung, Forensik, HCL Sametime, Jitsi, TURN Server, SIP, WebRTC, Testautomatisierung, Software- und Container-Scans, Harbor Container Registry, Grafana, Prometheus.
 
-Containerisierung, Docker, Kubernetes, MongoDB, LDAP, Monitoring, Alarmierung, Logfile-Sammlung, Forensik, HCL Sametime, Jitsi, TURN Server, SIP, WebRTC, Testautomatisierung, Software- und Container-Scans, Harbor Container Registry, Grafana, Prometheus.  
 [Mehr über Schulungen erfahren](./schulungen)
 
 [Weitere Informationen anfragen](./kontakt)

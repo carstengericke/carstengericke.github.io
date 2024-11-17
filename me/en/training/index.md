@@ -23,4 +23,4 @@ I offer training and workshops on the following topics:
 - **Harbor Container Registry:** Management and security of container images.
 - **Grafana and Prometheus:** Monitoring and visualization solutions for IT infrastructures.
 
-[Back to Services](./services)
+[Back to Services](../services)
