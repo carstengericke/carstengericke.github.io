@@ -21,4 +21,4 @@ If you're interested in a Third Party TAPI Service Provider for innovaphone myAp
 
 ---
 
-Learn more about our solutions on the [ilink CRM Extensions product page](/en/products/ilink-crm-extensions/) or contact us directly via the [contact page](/en/contact/).
+Learn more about our solutions on the [ilink CRM Extensions product page](../products/ilink-crm-extensions) or contact us directly via the [contact page](../contact).

@@ -12,4 +12,4 @@ Recently, I created a comprehensive guide on configuring Single Sign-On (SSO) fo
 - Configuring LTPA keys for authentication.
 - Connecting systems with unified authentication mechanisms.
 
-[Read the full documentation](/en/documentations)
+[Read the full documentation](./documentations)

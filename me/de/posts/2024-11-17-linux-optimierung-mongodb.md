@@ -12,4 +12,4 @@ Die Leistung von MongoDB kann durch spezielle Linux-Konfigurationen erheblich ve
 - Optimierung der Festplatteneinstellungen.
 - Monitoring von MongoDB auf Linux-Systemen.
 
-[Zur Dokumentation](/de/dokumentationen)
+[Zur Dokumentation](../dokumentationen)

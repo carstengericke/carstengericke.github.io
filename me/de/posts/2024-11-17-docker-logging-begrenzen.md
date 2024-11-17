@@ -12,4 +12,4 @@ lang: de
 - Verwendung von `log-driver`-Optionen wie `json-file` oder `syslog`.
 - Überwachung des Speicherverbrauchs durch Logs.
 
-[Zur Dokumentation](/de/dokumentationen)
+[Zur Dokumentation](../dokumentationen)

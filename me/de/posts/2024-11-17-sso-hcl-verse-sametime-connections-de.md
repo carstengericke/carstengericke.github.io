@@ -12,4 +12,4 @@ Ich habe kürzlich eine umfassende Anleitung zur Einrichtung von Single Sign-On 
 - Konfiguration von LTPA-Schlüsseln.
 - Verbindung der Systeme über einheitliche Authentifizierungsmechanismen.
 
-[Zur Dokumentation](/de/dokumentationen)
+[Zur Dokumentation](../dokumentationen)

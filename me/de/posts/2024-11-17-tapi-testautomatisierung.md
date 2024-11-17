@@ -14,7 +14,7 @@ Mit der **TAPI Testautomatisierung** steht eine innovative Lösung zur Verfügun
 
 Die Lösung richtet sich an Unternehmen, die sicherstellen möchten, dass ihre TAPI-basierten Kommunikationslösungen reibungslos funktionieren. Egal, ob es sich um Telefonanlagen, Softphones oder andere TAPI-kompatible Systeme handelt – die TAPI Testautomatisierung macht Ihre Qualitätssicherung effizienter und zuverlässiger.
 
-Erfahren Sie mehr auf der [Produktseite](/de/produkte/tapi-testautomatisierung/).
+Erfahren Sie mehr auf der [Produktseite](../produkte/tapi-testautomatisierung/).
 
 ---
 
