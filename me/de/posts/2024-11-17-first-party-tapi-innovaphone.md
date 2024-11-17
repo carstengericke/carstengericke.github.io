@@ -17,7 +17,7 @@ Wir prüfen aktuell die Entwicklung eines **Third Party TAPI Service Providers**
 - **Plattformübergreifende Nutzung:** Mehrere Benutzer könnten gleichzeitig von erweiterten TAPI-Funktionen profitieren.
 - **Zentrale Steuerung:** Vereinfachte Verwaltung und Konfiguration direkt über myApps.
 
-Erfahre mehr über unsere Lösungen auf der Produktseite zu den [ilink CRM Extensions](../products/ilink-crm-extensions) oder kontaktiere uns direkt über die [Kontaktseite](../kontakt).
+Erfahre mehr über unsere Lösungen auf der Produktseite zu den [ilink CRM Extensions](../produkte/ilink-crm-extensions) oder kontaktiere uns direkt über die [Kontaktseite](../kontakt).
 
 
 
