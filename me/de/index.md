@@ -10,14 +10,19 @@ Ich blicke auf 35 Jahre Berufserfahrung in der IT-Integration und Softwareentwic
 
 ## Was findest Du hier?
 
-### [Über mich](./ueber-mich)
-Erfahre mehr über meinen beruflichen Werdegang, meine Schwerpunkte und meine Erfahrung in der IT-Branche.
+## Über mich
+Erfahre mehr über mich und meinen Ansatz – IT mit Herz und Verstand.  
+[Mehr über mich erfahren](./ueber-mich)
 
 ### [Dienstleistungen](./dienstleistungen)
 Lerne meine Angebote kennen: IT-Integration, Betrieb und Support sowie Schulungen und Workshops zu verschiedenen IT-Themen.
 
 ### [Produkte](./produkte)
 Entdecke leistungsstarke Produkte wie ilink CRM Extensions, iOffice Communicator, TeamCall TAP, ilink Chat Rooms und weitere.
+
+## Dokumentationen
+Schau Dir meine praxisnahen Anleitungen an, die aus echten Kundenprojekten entstanden sind, und nutze sie für Deine Herausforderungen.  
+[Dokumentationen ansehen](./dokumentationen)
 
 ### [Blog](./blog)
 Bleibe auf dem Laufenden mit meinen neuesten Beiträgen zu IT-Themen, Produktentwicklungen und Best Practices.
