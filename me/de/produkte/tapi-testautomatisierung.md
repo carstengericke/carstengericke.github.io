@@ -1,7 +1,6 @@
 ---
 layout: default
 title: TAPI Testautomatisierung
-permalink: /produkte/tapi-testautomatisierung/
 lang: de
 ---
 
