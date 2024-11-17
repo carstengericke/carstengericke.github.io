@@ -19,20 +19,7 @@ lang: de
 - Auf Wunsch kann der Betrieb auch nach BSI IT-Grundschutz eingerichtet werden.
 
 ## Schulungen und Workshops
-Ich biete Schulungen und Workshops zu folgenden Themen an:
-- **Containerisierung:** Effiziente Nutzung von Containern für skalierbare IT-Systeme.
-- **Docker und Kubernetes:** Einführung und Fortgeschrittenenschulungen.
-- **MongoDB:** Installation, Optimierung und Wartung.
-- **LDAP:** Einrichtung und Integration in bestehende Systeme.
-- **Monitoring und Alarmierung:** Überwachung von IT-Systemen in Echtzeit.
-- **Logfile-Sammlung und Archivierung:** Zentralisierte Logverwaltung, auch für Forensik geeignet.
-- **HCL Sametime:** Installation, Konfiguration und Integration.
-- **Jitsi:** Videokonferenzlösungen und Anpassungen.
-- **TURN Server:** Konfiguration für WebRTC und Firewall-Umgehung.
-- **SIP und WebRTC:** Grundlagen, Integration und Anwendung in Kommunikationslösungen.
-- **Testautomatisierung:** Einführung in automatisierte Tests für Softwareprojekte.
-- **Software- und Container-Scans:** Sicherheit und Qualitätssicherung von Images und Anwendungen.
-- **Harbor Container Registry:** Verwaltung und Sicherheit von Container-Images.
-- **Grafana und Prometheus:** Monitoring- und Visualisierungslösungen für IT-Infrastrukturen.
+Ich biete Schulungen und Workshops zu folgenden Themen an: **Containerisierung, Docker, Kubernetes, MongoDB, LDAP, Monitoring, Alarmierung, Logfile-Sammlung, Forensik, HCL Sametime, Jitsi, TURN Server, SIP, WebRTC, Testautomatisierung, Software- und Container-Scans, Harbor Container Registry, Grafana, Prometheus**.  
+[Mehr über Schulungen erfahren](./schulungen)
 
-[Weitere Informationen anfragen](/de/kontakt)
+[Weitere Informationen anfragen](./kontakt)
