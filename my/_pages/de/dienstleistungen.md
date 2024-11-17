@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Dienstleistungen
-permalink: /de/dienstleistungen/
 lang: de
 ---
 
