@@ -7,42 +7,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="{{ page.lang == 'de' ? '/de/' | relative_url : '/en/' | relative_url }}">
-                        {{ page.lang == 'de' ? 'Startseite' : 'Home' }}
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ page.lang == 'de' ? '/de/dienstleistungen/' | relative_url : '/en/services/' | relative_url }}">
-                        {{ page.lang == 'de' ? 'Dienstleistungen' : 'Services' }}
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ page.lang == 'de' ? '/me/de/produkte/' : '/me/en/products/' }}">
-                        {{ page.lang == 'de' ? 'Produkte' : 'Products' }}
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ page.lang == 'de' ? '/de/dokumentationen/' | relative_url : '/en/documentations/' | relative_url }}">
-                        {{ page.lang == 'de' ? 'Dokumentationen' : 'Documentation' }}
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ page.lang == 'de' ? '/de/ueber-mich/' | relative_url : '/en/about-me/' | relative_url }}">
-                        {{ page.lang == 'de' ? 'Über mich' : 'About Me' }}
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ page.lang == 'de' ? '/de/kontakt/' | relative_url : '/en/contact/' | relative_url }}">
-                        {{ page.lang == 'de' ? 'Kontakt' : 'Contact' }}
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
     <main>
         <article>
