@@ -22,7 +22,7 @@ Welcome to the blog! Here you’ll find a collection of posts covering topics su
   <br>
   <small>November 17, 2024</small>
 
-- [Limiting Logging in Docker](./posts/2024-11-17-docker-logging-limitation)
+- [Limiting Logging in Docker](./posts/2024-11-17-limiting-logging-in-docker)
   <br>
   <small>November 17, 2024</small>
 
