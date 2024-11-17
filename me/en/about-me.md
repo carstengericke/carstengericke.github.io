@@ -15,8 +15,8 @@ I am an IT expert with heart and mind, bringing 35 years of professional experie
 - **Operation and Support:** Organizing operations, including according to BSI IT baseline protection standards.
 
 ## Key Skills
-- **Team Building:** I bring together people with different perspectives to form a unified team working toward a common goal.
-- **Empathy:** I understand the needs and challenges of diverse teams and foster effective collaboration.
+- **Team Building:** People with diverse perspectives come together to form a team that works in unison toward a common goal.
+- **Empathy:** It is important to channel the diverse needs and challenges of teams into effective collaboration, leveraging them to develop suitable solutions. This is the focus of my work.
 - **Experience:** Extensive work in the ECMA committee on the CSTA standard.
 - **Commitment:** Chair of the DNUG working group for communication, chat, and web meetings, and an HCL Ambassador.
 
